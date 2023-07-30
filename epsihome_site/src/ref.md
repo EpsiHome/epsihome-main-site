@@ -1,0 +1,4 @@
+
+we are a real estate (proptech) company, we provide services such as market place where we aim at linking property owners or agent. We also provide services such as property management to property manager who managees rental properties, this help them keep the booking, track record, lake expenses and analyse if there is profit. 
+
+Create a website using react JS with many sections explaining all this to visitors who will visite the website. Devide the website into sections including the introduction section, the services section , the about us section. Also add a contact us section with a form that will take user email, name and message that they will pass to us to find out more about the product. use tailwind css for the styling of the website
