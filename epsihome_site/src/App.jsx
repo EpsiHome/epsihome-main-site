@@ -1,11 +1,13 @@
 import React from "react";
-import { Header, Service } from "./component";
+import { AboutUs, Contact, Header, Service } from "./component";
 
 function App() {
   return (
     <div className="">
       <Header/>
       <Service/>
+      <AboutUs/>
+      <Contact/>
     </div>
   );
 }
