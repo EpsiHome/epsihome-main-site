@@ -5,6 +5,7 @@ import data from "../constant/data";
 function Service() {
   return (
     <section id="services" className="bg-white py-12 mt-4">
+      <h1 className="text-3xl text-center my-4 text-gray-800 uppercase font-bold">our services</h1>
       <div className="container mx-auto px-4">
         <h2 className="text-4xl font-bold mb-8">Our Services</h2>
         <div className="flex flex-wrap -mx-4">

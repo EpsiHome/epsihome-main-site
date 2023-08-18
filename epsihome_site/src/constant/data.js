@@ -51,8 +51,57 @@ const services = [
   },
 ];
 
+const platformBenefits = [
+  {
+    title: "Enhanced Access to Real Estate Listings",
+    subtitle:
+      "Gain access to a comprehensive real estate marketplace featuring a wide range of properties across Cameroon And Africa. Increase options and opportunities to find desired homes or investment properties.",
+  },
+  {
+    title: "Efficient Property Management Tools",
+    subtitle:
+      "Take advantage of robust property management tools that allow easy management of properties, handling of rental agreements, tracking of maintenance requests, and effective communication with tenants. This help landlords and property managers to know if they are making profits there by guiding them in where they should put their efforts in",
+  },
+  {
+    title: "Simplified Mortgage Provision",
+    subtitle:
+      "Simplify the process of obtaining financing for property purchases. Facilitate online mortgage applications, personalized loan options, and access to reputable lenders, making it easier for users to navigate the mortgage process. Making it easier for people to buy houses or invest in real estate",
+  },
+  {
+    title: "Secure Transactions",
+    subtitle:
+      "Enhance trust and reduce risks associated with real estate transactions. Utilize secure payment gateways or blockchain technology to ensure secure and transparent transactions for users.",
+  },
+  {
+    title: "Localized Expertise in the African Market",
+    subtitle:
+      "Access a network of real estate professionals with deep knowledge of the African market. Gain expert advice on property investments, legal matters, and market trends specific to your region.",
+  },
+  {
+    title: "Community Engagement and Networking",
+    subtitle:
+      "Foster a sense of community by providing features like forums, discussion boards, or local events. Connect users with like-minded individuals, facilitating knowledge sharing and networking opportunities.",
+  },
+  {
+    title: "Empowerment for Homeownership",
+    subtitle:
+      "Offer resources, affordable housing options, and financial guidance to empower individuals and families in becoming homeowners. Contribute to the socioeconomic development and stability of African communities.",
+  },
+  {
+    title: "Job Creation and Economic Growth",
+    subtitle:
+      "Create employment opportunities within the real estate industry. Connect users with local agents, property managers, inspectors, and other professionals, contributing to economic growth and job creation.",
+  },
+  {
+    title: "Technological Advancements in the Real Estate Sector",
+    subtitle:
+      "Leverage modern technologies to introduce innovative solutions to challenges in the African real estate sector. Implement virtual property tours, smart home integration, AI-driven property recommendations, and data analytics to enhance the user experience.",
+  },
+];
+
 const data = {
-  services
+  services,
+  platformBenefits
 }
 
 export default data

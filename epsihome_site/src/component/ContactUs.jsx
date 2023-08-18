@@ -6,7 +6,8 @@ const ContactUs = () => {
   const [message, setMessage] = React.useState("");
 
   return (
-    <section id="contact" className="contact h-screen bg-white ">
+    <section id="contact" className="contact min-h-screen bg-white ">
+      <h1 className="text-3xl text-center my-4 text-gray-800 uppercase font-bold">contact us</h1>
       <div className="flex flex-col items-center justify-center h-full">
         <h1 className="text-3xl font-bold mb-4">Contact Us</h1>
         <form

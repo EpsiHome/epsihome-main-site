@@ -2,8 +2,8 @@ import React from "react";
 
 const AboutUs = () => {
   return (
-    <section id="about" className="about-us bg-white">
-      <h1 className="text-3xl font-bold mb-4">About Us</h1>
+    <section id="about" className="about-us h-screen bg-white justify-center">
+      <h1 className="text-3xl text-center my-4 text-gray-800 uppercase font-bold">about us</h1>
       <div className="grid grid-cols-2 gap-4">
         <div>
           <p className="text-gray-700 mb-4">
