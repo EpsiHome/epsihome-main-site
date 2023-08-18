@@ -11,7 +11,7 @@ const ContactUs = () => {
       <div className="flex flex-col items-center justify-center h-full">
         <h1 className="text-3xl font-bold mb-4">Contact Us</h1>
         <form
-          action="https://formspree.io/f/mrgvvzwv"
+          action="https://formspree.io/f/xleybrwj"
           method="POST"
           // onSubmit={handleSubmit}
           className="w-full max-w-lg"
@@ -23,6 +23,9 @@ const ContactUs = () => {
             <input
               type="text"
               id="name"
+              name="name"
+              required
+              min={6}
               className="form-control w-full"
               value={name}
               onChange={(e) => setName(e.target.value)}
@@ -35,6 +38,8 @@ const ContactUs = () => {
             <input
               type="email"
               id="email"
+              name="email"
+              required
               className="form-control w-full"
               value={email}
               onChange={(e) => setEmail(e.target.value)}
@@ -46,13 +51,15 @@ const ContactUs = () => {
             </label>
             <textarea
               id="message"
+              name='message'
+              required
               className="form-control w-full"
               rows="5"
               value={message}
               onChange={(e) => setMessage(e.target.value)}
             />
           </div>
-          <button type="submit" className="btn btn-primary w-full">
+          <button type="submit" className="btn bg-gray-600 btn-primary w-full">
             Submit
           </button>
         </form>
