@@ -19,6 +19,11 @@ function Header() {
             </a>
           </li>
           <li className="md:ml-6 ml-2">
+            <a href="#faq" className="hover:text-gray-400">
+              FAQ
+            </a>
+          </li>
+          <li className="md:ml-6 ml-2">
             <a href="#benefits" className="hover:text-gray-400">
               Benefits
             </a>
