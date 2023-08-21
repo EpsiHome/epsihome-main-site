@@ -6,5 +6,42 @@
     "faq":"PF",
     "benefits":"Beneficios",
     "contact":"Contacta con nosotras"
+  },
+  "services": {
+    "title": "Nuestros Servicios",
+    "items": [
+      {
+        "title": "Mercado Inmobiliario",
+        "description": "Ofrecemos un mercado donde los propietarios de propiedades o agentes pueden listar sus propiedades y conectarse con posibles compradores o arrendatarios."
+      },
+      {
+        "title": "Administración de Propiedades",
+        "description": "Brindamos servicios de administración de propiedades a administradores de propiedades que gestionan propiedades de alquiler. Esto les ayuda a realizar un seguimiento de las reservas, los gastos y analizar la rentabilidad."
+      },
+      {
+        "title": "Datos Inmobiliarios",
+        "description": "Proporcionamos acceso a datos inmobiliarios, como tendencias del mercado, valoraciones de propiedades y oportunidades de inversión, para ayudar a nuestros clientes a tomar decisiones informadas."
+      },
+      {
+        "title": "Inspección de Viviendas",
+        "description": "Ofrecemos servicios de inspección de viviendas para ayudar a nuestros clientes a identificar posibles problemas de una propiedad antes de realizar una compra o inversión."
+      },
+      {
+        "title": "Seguro de Propiedades",
+        "description": "Ofrecemos seguros de propiedades para proteger las propiedades de nuestros clientes contra daños o pérdidas debido a accidentes, desastres naturales u otros eventos imprevistos."
+      },
+      {
+        "title": "Visitas Virtuales",
+        "description": "Ofrecemos visitas virtuales de propiedades para ayudar a nuestros clientes a explorar y visualizar propiedades desde la comodidad de sus hogares."
+      },
+      {
+        "title": "Préstamos Hipotecarios",
+        "description": "Ofrecemos servicios de provisiones de préstamos hipotecarios para ayudar a nuestros clientes a obtener financiamiento para sus inversiones inmobiliarias. Nuestro equipo de expertos los acompañará durante todo el proceso, desde la solicitud hasta el cierre."
+      },
+      {
+        "title": "Análisis de Inversiones Inmobiliarias",
+        "description": "Proporcionamos herramientas de análisis de inversiones inmobiliarias para ayudar a nuestros clientes a evaluar el potencial de retorno de inversión de diversas propiedades. Nuestro equipo de expertos brindará informes detallados y conocimientos para ayudar a tomar decisiones informadas."
+      }
+    ]
   }
 }

@@ -7,5 +7,42 @@
     "faq":"QFP",
     "benefits":"Benefits",
     "contact":"Contactez-nous"
+  },
+  "services": {
+    "title": "Nos services",
+    "items": [
+      {
+        "title": "Place de marché",
+        "description": "Nous proposons une place de marché où les propriétaires ou les agents immobiliers peuvent répertorier leurs biens immobiliers et entrer en contact avec des acheteurs ou des locataires potentiels."
+      },
+      {
+        "title": "Gestion immobilière",
+        "description": "Nous fournissons des services de gestion immobilière aux gestionnaires de biens immobiliers qui gèrent des biens locatifs. Cela les aide à suivre les réservations, les dépenses et à analyser la rentabilité."
+      },
+      {
+        "title": "Données immobilières",
+        "description": "Nous donnons accès à des données immobilières telles que les tendances du marché, les évaluations de biens et les opportunités d'investissement pour aider nos clients à prendre des décisions éclairées."
+      },
+      {
+        "title": "Inspection de maison",
+        "description": "Nous proposons des services d'inspection de maison pour aider nos clients à identifier les problèmes potentiels d'une propriété avant de procéder à un achat ou un investissement."
+      },
+      {
+        "title": "Assurance immobilière",
+        "description": "Nous proposons une assurance immobilière pour protéger les biens de nos clients contre les dommages ou les pertes dus aux accidents, aux catastrophes naturelles ou à d'autres événements imprévus."
+      },
+      {
+        "title": "Visites virtuelles",
+        "description": "Nous proposons des visites virtuelles de biens immobiliers pour aider nos clients à explorer et visualiser des propriétés depuis le confort de leur domicile."
+      },
+      {
+        "title": "Prêt hypothécaire",
+        "description": "Nous proposons des services de prêt hypothécaire pour aider nos clients à obtenir un financement pour leurs investissements immobiliers. Notre équipe d'experts les accompagnera tout au long du processus, de la demande à la clôture."
+      },
+      {
+        "title": "Analyse d'investissement immobilier",
+        "description": "Nous proposons des outils d'analyse d'investissement immobilier pour aider nos clients à évaluer le potentiel de rentabilité de divers biens immobiliers. Notre équipe d'experts fournira des rapports détaillés et des informations pour les aider à prendre des décisions éclairées."
+      }
+    ]
   }
 }

@@ -6,5 +6,42 @@
     "faq":"OGF",
     "benefits":"Vorteile",
     "contact":"kontaktiere uns"
+  },
+  "services": {
+    "title": "Unsere Dienstleistungen",
+    "items": [
+      {
+        "title": "Marktplatz",
+        "description": "Wir bieten einen Marktplatz, auf dem Immobilienbesitzer oder Agenten ihre Immobilien auflisten und potenzielle Käufer oder Mieter finden können."
+      },
+      {
+        "title": "Immobilienverwaltung",
+        "description": "Wir bieten Immobilienverwaltungsdienstleistungen für Immobilienverwalter an, die Mietobjekte verwalten. Dies hilft ihnen bei der Verfolgung von Buchungen, Ausgaben und der Analyse der Rentabilität."
+      },
+      {
+        "title": "Immobilien-Daten",
+        "description": "Wir bieten Zugang zu Immobilien-Daten wie Markttrends, Immobilienbewertungen und Investitionsmöglichkeiten, um unseren Kunden bei fundierten Entscheidungen zu helfen."
+      },
+      {
+        "title": "Hausinspektion",
+        "description": "Wir bieten Hausinspektionsdienste an, um unseren Kunden dabei zu helfen, potenzielle Probleme mit einer Immobilie vor einem Kauf oder einer Investition zu identifizieren."
+      },
+      {
+        "title": "Immobilienversicherung",
+        "description": "Wir bieten Immobilienversicherungen an, um die Immobilien unserer Kunden vor Schäden oder Verlusten durch Unfälle, Naturkatastrophen oder andere unvorhergesehene Ereignisse zu schützen."
+      },
+      {
+        "title": "Virtuelle Touren",
+        "description": "Wir bieten virtuelle Touren von Immobilien an, um unseren Kunden zu helfen, Immobilien bequem von zu Hause aus zu erkunden und zu visualisieren."
+      },
+      {
+        "title": "Hypothekenbereitstellung",
+        "description": "Wir bieten Hypothekenbereitstellungsdienste an, um unseren Kunden bei der Finanzierung ihrer Immobilieninvestitionen zu helfen. Unser Expertenteam unterstützt sie während des gesamten Prozesses, von der Antragstellung bis zur Abschlussabwicklung."
+      },
+      {
+        "title": "Immobilien-Investitionsanalyse",
+        "description": "Wir stellen Tools zur Immobilien-Investitionsanalyse bereit, um unseren Kunden bei der Bewertung des potenziellen Return on Investment für verschiedene Immobilien zu helfen. Unser Expertenteam erstellt detaillierte Berichte und bietet Einblicke, um fundierte Entscheidungen zu unterstützen."
+      }
+    ]
   }
 }

@@ -6,5 +6,42 @@
     "faq":"FAQ",
     "benefits":"Benefits",
     "contact":"Contact Us"
+  },
+  "services": {
+    "title": "Our Services",
+    "items": [
+      {
+        "title": "Marketplace",
+        "description": "We provide a marketplace where property owners or agents can list their properties and connect with potential buyers or renters."
+      },
+      {
+        "title": "Property Management",
+        "description": "We provide property management services to property managers who manage rental properties. This helps them keep track of bookings, expenses, and analyze profitability."
+      },
+      {
+        "title": "Real Estate Data",
+        "description": "We provide access to real estate data such as market trends, property valuations, and investment opportunities to help our clients make informed decisions."
+      },
+      {
+        "title": "Home Inspection",
+        "description": "We provide home inspection services to help our clients identify potential issues with a property before making a purchase or investment."
+      },
+      {
+        "title": "Property Insurance",
+        "description": "We provide property insurance to protect our clients' properties from damage or loss due to accidents, natural disasters, or other unforeseen events."
+      },
+      {
+        "title": "Virtual Tours",
+        "description": "We provide virtual tours of properties to help our clients explore and visualize properties from the comfort of their own homes."
+      },
+      {
+        "title": "Mortgage Provision",
+        "description": "We provide mortgage provision services to help our clients secure financing for their real estate investments. Our team of experts will assist with the entire process, from application to closing."
+      },
+      {
+        "title": "Real Estate Investment Analysis",
+        "description": "We provide real estate investment analysis tools to help our clients evaluate the potential return on investment for various properties. Our team of experts will provide detailed reports and insights to help make informed decisions."
+      }
+    ]
   }
 }
