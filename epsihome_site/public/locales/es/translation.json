@@ -1,11 +1,11 @@
 
 {
-  "header":{
-    "services":"Servicios",
-    "about":"Sobre nosotras",
-    "faq":"PF",
-    "benefits":"Beneficios",
-    "contact":"Contacta con nosotras"
+  "header": {
+    "services": "Servicios",
+    "about": "Sobre nosotras",
+    "faq": "PF",
+    "benefits": "Beneficios",
+    "contact": "Contacta con nosotras"
   },
   "services": {
     "title": "Nuestros Servicios",
@@ -43,5 +43,17 @@
         "description": "Proporcionamos herramientas de análisis de inversiones inmobiliarias para ayudar a nuestros clientes a evaluar el potencial de retorno de inversión de diversas propiedades. Nuestro equipo de expertos brindará informes detallados y conocimientos para ayudar a tomar decisiones informadas."
       }
     ]
+  },
+  "aboutUs": {
+    "title": "sobre nosotros",
+    "description1": "Somos una empresa de tecnología inmobiliaria que ofrece un conjunto de servicios para ayudar a las personas a comprar, vender y alquilar viviendas. Nuestra misión es hacer el proceso de bienes raíces más eficiente y transparente para todas las partes involucradas.",
+    "description2": "Creemos que todos deberían tener acceso a viviendas asequibles y nos comprometemos a utilizar nuestra tecnología para hacerlo realidad. También nos apasiona crear una industria inmobiliaria más sostenible y estamos trabajando en la implementación de soluciones innovadoras para reducir nuestro impacto ambiental.",
+    "listItem1": "Proporcionamos una plataforma para que compradores y vendedores se conecten entre sí.",
+    "listItem2": "Ofrecemos una variedad de herramientas para ayudar a las personas a encontrar el hogar adecuado para sus necesidades.",
+    "listItem3": "Proporcionamos precios y condiciones transparentes para que las personas puedan tomar decisiones informadas.",
+    "listItem4": "Nos comprometemos con el servicio al clientey la satisfacción.",
+    "listItem5": "Nos comprometemos a contribuir al desarrollo de nuestra economía mediante la generación de empleo y revolucionando la forma en que se llevan a cabo las actividades relacionadas con bienes raíces en Camerún y África.",
+    "listItem6": "Ofrecemos herramientas de inversión inmobiliaria para ayudar a las personas a hacer crecer su patrimonio.",
+    "listItem7": "Proporcionamos hipotecas para ayudar a las personas a ser propietarias de su propia vivienda."
   }
 }

@@ -1,11 +1,11 @@
 
 {
-  "header":{
-    "services":"Dienstleistungen",
-    "about":"über uns",
-    "faq":"OGF",
-    "benefits":"Vorteile",
-    "contact":"kontaktiere uns"
+  "header": {
+    "services": "Dienstleistungen",
+    "about": "über uns",
+    "faq": "OGF",
+    "benefits": "Vorteile",
+    "contact": "kontaktiere uns"
   },
   "services": {
     "title": "Unsere Dienstleistungen",
@@ -43,5 +43,17 @@
         "description": "Wir stellen Tools zur Immobilien-Investitionsanalyse bereit, um unseren Kunden bei der Bewertung des potenziellen Return on Investment für verschiedene Immobilien zu helfen. Unser Expertenteam erstellt detaillierte Berichte und bietet Einblicke, um fundierte Entscheidungen zu unterstützen."
       }
     ]
+  },
+  "aboutUs": {
+    "title": "über uns",
+    "description1": "Wir sind ein Proptech-Unternehmen, das eine Reihe von Dienstleistungen anbietet, um Menschen beim Kauf, Verkauf und zur Miete von Wohnungen zu helfen. Unsere Mission ist es, den Immobilienprozess für alle Beteiligten effizienter und transparenter zu gestalten.",
+    "description2": "Wir sind der Überzeugung, dass jeder Zugang zu erschwinglichem Wohnraum haben sollte, und wir setzen uns dafür ein, dies mithilfe unserer Technologie zu ermöglichen. Darüber hinaus liegt uns die Schaffung einer nachhaltigeren Immobilienbranche am Herzen, und wir arbeiten daran, innovative Lösungen zur Verringerung unserer Umweltauswirkungen umzusetzen.",
+    "listItem1": "Wir bieten eine Plattform, auf der Käufer und Verkäufer miteinander in Kontakt treten können.",
+    "listItem2": "Wir bieten eine Vielzahl von Tools, um Menschen bei der Suche nach dem richtigen Zuhause für ihre Bedürfnisse zu unterstützen.",
+    "listItem3": "Wir bieten transparente Preisgestaltung und Bedingungen, damit Menschen fundierte Entscheidungen treffen können.",
+    "listItem4": "Wir legen großen Wert auf Kundenservice und Zufriedenheit.",
+    "listItem5": "Wir setzen uns dafür ein, unsere Wirtschaft durch die Schaffung von Arbeitsplätzen zu entwickeln und die Art und Weise, wie Immobilienaktivitäten in Kamerun und Afrika durchgeführt werden, zu revolutionieren.",
+    "listItem6": "Wir bieten Tools für Immobilieninvestitionen, um Menschen dabei zu helfen, ihr Vermögen zu vermehren.",
+    "listItem7": "Wir bieten Hypotheken, um Menschen dabei zu helfen, ihr eigenes Zuhause zu besitzen."
   }
 }

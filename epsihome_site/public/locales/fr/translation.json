@@ -1,12 +1,12 @@
 
 
 {
-  "header":{
-    "services":"Services",
-    "about":"à propos de nous",
-    "faq":"QFP",
-    "benefits":"Benefits",
-    "contact":"Contactez-nous"
+  "header": {
+    "services": "Services",
+    "about": "à propos de nous",
+    "faq": "QFP",
+    "benefits": "Benefits",
+    "contact": "Contactez-nous"
   },
   "services": {
     "title": "Nos services",
@@ -44,5 +44,17 @@
         "description": "Nous proposons des outils d'analyse d'investissement immobilier pour aider nos clients à évaluer le potentiel de rentabilité de divers biens immobiliers. Notre équipe d'experts fournira des rapports détaillés et des informations pour les aider à prendre des décisions éclairées."
       }
     ]
+  },
+  "aboutUs": {
+    "title": "à propos de nous",
+    "description1": "Nous sommes une entreprise proptech qui propose une gamme de services pour aider les gens à acheter, vendre et louer des logements. Notre mission est de rendre le processus immobilier plus efficace et transparent pour tous les acteurs concernés.",
+    "description2": "Nous croyons que tout le monde devrait avoir accès à un logement abordable, et nous nous engageons à utiliser notre technologie pour faire de cela une réalité. Nous sommes également passionnés par la création d'une industrie immobilière plus durable et nous travaillons à la mise en place de solutions innovantes pour réduire notre impact environnemental.",
+    "listItem1": "Nous fournissons une plateforme pour mettre en relation les acheteurs et les vendeurs.",
+    "listItem2": "Nous proposons une variété d'outils pour aider les gens à trouver le logement qui correspond à leurs besoins.",
+    "listItem3": "Nous proposons des prix transparents et des conditions pour que les gens puissent prendre des décisions éclairées.",
+    "listItem4": "Nous sommes engagés envers le service client et la satisfaction.",
+    "listItem5": "Nous nous engageons à contribuer au développement de notre économie en fournissant de l'emploi et en révolutionnant la manière dont les activités liées à l'immobilier sont menées au Cameroun et en Afrique.",
+    "listItem6": "Nous proposons des outils d'investissement immobilier pour aider les gens à faire fructifier leur patrimoine.",
+    "listItem7": "Nous proposons des prêts hypothécaires pour aider les gens à devenir propriétaires de leur propre logement."
   }
 }

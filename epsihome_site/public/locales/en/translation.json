@@ -1,11 +1,11 @@
 
 {
-  "header":{
-    "services":"Services",
-    "about":"About Us",
-    "faq":"FAQ",
-    "benefits":"Benefits",
-    "contact":"Contact Us"
+  "header": {
+    "services": "Services",
+    "about": "About Us",
+    "faq": "FAQ",
+    "benefits": "Benefits",
+    "contact": "Contact Us"
   },
   "services": {
     "title": "Our Services",
@@ -43,5 +43,17 @@
         "description": "We provide real estate investment analysis tools to help our clients evaluate the potential return on investment for various properties. Our team of experts will provide detailed reports and insights to help make informed decisions."
       }
     ]
+  },
+  "aboutUs": {
+    "title": "about us",
+    "description1": "We are a proptech company that provides a suite of services to help people buy, sell, and rent homes. Our mission is to make the real estate process more efficient and transparent for everyone involved.",
+    "description2": "We believe that everyone should have access to affordable housing, and we are committed to using our technology to make that a reality. We are also passionate about creating a more sustainable real estate industry, and we are working to implement innovative solutions to reduce our environmental impact.",
+    "listItem1": "We provide a platform for buyers and sellers to connect with each other.",
+    "listItem2": "We offer a variety of tools to help people find the right home for their needs.",
+    "listItem3": "We provide transparent pricing and terms so that people can make informed decisions.",
+    "listItem4": "We are committed to customer service and satisfaction.",
+    "listItem5": "We are committed to helping develop our economy by providing employment and revolutionizing the way real estate-related activities are carried out in Cameroon and Africa.",
+    "listItem6": "We offer real estate investment tools to help people grow their wealth.",
+    "listItem7": "We provide mortgages to help people own their own homes."
   }
 }
