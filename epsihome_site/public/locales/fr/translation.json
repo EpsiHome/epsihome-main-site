@@ -57,9 +57,9 @@
     "listItem6": "Nous proposons des outils d'investissement immobilier pour aider les gens à faire fructifier leur patrimoine.",
     "listItem7": "Nous proposons des prêts hypothécaires pour aider les gens à devenir propriétaires de leur propre logement."
   },
-  "benefits":{
-    "title":"",
-    "items":[
+  "benefits": {
+    "title": "",
+    "items": [
       {
         "title": "Accès amélioré aux annonces immobilières",
         "subtitle": "Accédez à une place de marché immobilière complète proposant une large gamme de biens immobiliers au Cameroun et en Afrique. Augmentez les options et les opportunités pour trouver des maisons ou des biens d'investissement souhaités."
@@ -95,6 +95,39 @@
       {
         "title": "Avancées technologiques dans le secteur immobilier",
         "subtitle": "Exploitez les technologies modernes pour introduire des solutions innovantes aux défis du secteur immobilier africain. Mettez en place des visites virtuelles de biens, une intégration domotique, des recommandations de biens immobiliers basées sur l'IA et des analyses de données pour améliorer l'expérience utilisateur."
+      }
+    ]
+  },
+  "faq": {
+    "title": "Questions fréquemment posées",
+    "items": [
+      {
+        "question": "Comment puis-je créer un compte ?",
+        "answer": "Pour créer un compte, cliquez sur le bouton \"S'inscrire\" en haut à droite de la page d'accueil et suivez les instructions pour compléter le processus d'inscription."
+      },
+      {
+        "question": "Puis-je mettre en location ma propriété sur votre plateforme ?",
+        "answer": "Oui, vous pouvez mettre en location votre propriété sur notre plateforme. Rendez-vous simplement sur le tableau de bord de votre compte, cliquez sur \"Ajouter une annonce de propriété\" et fournissez les informations requises sur votre propriété."
+      },
+      {
+        "question": "Quels modes de paiement acceptez-vous ?",
+        "answer": "Nous acceptons différents modes de paiement, y compris les cartes de crédit/débit, les virements bancaires et les paiements mobiles, en fonction de votre emplacement et du service spécifique que vous utilisez."
+      },
+      {
+        "question": "Combien de temps dure une inspection de maison ?",
+        "answer": "La durée d'une inspection de maison peut varier en fonction de la taille et de la complexité de la propriété. En moyenne, cela peut prendre entre 1 et 3 heures pour effectuer une inspection approfondie."
+      },
+      {
+        "question": "Les animaux de compagnie sont-ils autorisés dans les locations ?",
+        "answer": "Les politiques concernant les animaux de compagnie peuvent varier pour chaque location. Certaines propriétés autorisent les animaux de compagnie avec certaines restrictions, tandis que d'autres ont une politique stricte d'interdiction d'animaux. Veuillez vérifier les détails de la propriété ou contacter le propriétaire/gestionnaire de la propriété pour des informations spécifiques sur les politiques relatives aux animaux de compagnie."
+      },
+      {
+        "question": "Que dois-je faire si j'oublie mon mot de passe de compte ?",
+        "answer": "Si vous oubliez votre mot de passe de compte, vous pouvez cliquer sur le lien \"Mot de passe oublié\" sur la page de connexion. Suivez les instructions pour réinitialiser votre mot de passe. Vous recevrez un e-mail avec d'autres instructions pour regagner l'accès à votre compte."
+      },
+      {
+        "question": "Comment puis-je contacter le service client ?",
+        "answer": "Pour contacter notre équipe du service client, vous pouvez vous rendre sur la page \"Nous contacter\" de notre site web. Remplissez le formulaire de contact avec votre demande ou contactez-nous par e-mail ou par téléphone. Nous répondrons à votre demande dans les meilleurs délais."
       }
     ]
   }

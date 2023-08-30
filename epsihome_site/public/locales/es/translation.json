@@ -1,4 +1,3 @@
-
 {
   "header": {
     "services": "Servicios",
@@ -57,44 +56,77 @@
     "listItem7": "Proporcionamos hipotecas para ayudar a las personas a ser propietarias de su propia vivienda."
   },
   "benefits": {
-"title": "",
-"items": [
-{
-"title": "Acceso mejorado a listados de bienes raíces",
-"subtitle": "Obtén acceso a un amplio mercado inmobiliario que ofrece una amplia gama de propiedades en Camerún y África. Aumenta las opciones y oportunidades para encontrar hogares deseados o propiedades de inversión."
-},
-{
-"title": "Herramientas eficientes de gestión de propiedades",
-"subtitle": "Aprovecha herramientas sólidas de gestión de propiedades que permiten una fácil administración de propiedades, manejo de acuerdos de alquiler, seguimiento de solicitudes de mantenimiento y comunicación efectiva con los inquilinos. Esto ayuda a los propietarios y administradores de propiedades a saber si están obteniendo beneficios, guiándolos en dónde deben enfocar sus esfuerzos."
-},
-{
-"title": "Provisión simplificada de hipotecas",
-"subtitle": "Simplifica el proceso de obtención de financiamiento para compras de propiedades. Facilita solicitudes de hipotecas en línea, opciones de préstamos personalizados y acceso a prestamistas confiables, lo que facilita a los usuarios navegar por el proceso hipotecario. Facilitando la compra de viviendas o la inversión en bienes raíces."
-},
-{
-"title": "Transacciones seguras",
-"subtitle": "Mejora la confianza y reduce los riesgos asociados con las transacciones inmobiliarias. Utiliza pasarelas de pago seguras o tecnología blockchain para garantizar transacciones seguras y transparentes para los usuarios."
-},
-{
-"title": "Experiencia localizada en el mercado africano",
-"subtitle": "Accede a una red de profesionales inmobiliarios con un profundo conocimiento del mercado africano. Obtén asesoramiento experto sobre inversiones inmobiliarias, asuntos legales y tendencias del mercado específicas de tu región."
-},
-{
-"title": "Participación comunitaria y networking",
-"subtitle": "Fomenta un sentido de comunidad al proporcionar características como foros, tableros de discusión o eventos locales. Conecta a los usuarios con personas de ideas afines, facilitando el intercambio de conocimientos y oportunidades de networking."
-},
-{
-"title": "Empoderamiento para ser propietario de vivienda",
-"subtitle": "Ofrece recursos, opciones de vivienda asequibles y orientación financiera para empoderar a individuos y familias a convertirse en propietarios de vivienda. Contribuye al desarrollo socioeconómico y la estabilidad de las comunidades africanas."
-},
-{
-"title": "Creación de empleo y crecimiento económico",
-"subtitle": "Crea oportunidades de empleo dentro de la industria inmobiliaria. Conecta a los usuarios con agentes locales, administradores de propiedades, inspectores y otros profesionales, contribuyendo al crecimiento económico y la creación de empleo."
-},
-{
-"title": "Avances tecnológicos en el sector inmobiliario",
-"subtitle": "Aprovecha las tecnologías modernas para introducir soluciones innovadoras a los desafíos en el sector inmobiliario africano. Implementa recorridos virtuales de propiedades, integración de hogares inteligentes, recomendaciones de propiedades basadas en IA y análisis de datos para mejorar la experiencia del usuario."
-}
-]
-}
+    "title": "",
+    "items": [
+      {
+        "title": "Acceso mejorado a listados de bienes raíces",
+        "subtitle": "Obtén acceso a un amplio mercado inmobiliario que ofrece una amplia gama de propiedades en Camerún y África. Aumenta las opciones y oportunidades para encontrar hogares deseados o propiedades de inversión."
+      },
+      {
+        "title": "Herramientas eficientes de gestión de propiedades",
+        "subtitle": "Aprovecha herramientas sólidas de gestión de propiedades que permiten una fácil administración de propiedades, manejo de acuerdos de alquiler, seguimiento de solicitudes de mantenimiento y comunicación efectiva con los inquilinos. Esto ayuda a los propietarios y administradores de propiedades a saber si están obteniendo beneficios, guiándolos en dónde deben enfocar sus esfuerzos."
+      },
+      {
+        "title": "Provisión simplificada de hipotecas",
+        "subtitle": "Simplifica el proceso de obtención de financiamiento para compras de propiedades. Facilita solicitudes de hipotecas en línea, opciones de préstamos personalizados y acceso a prestamistas confiables, lo que facilita a los usuarios navegar por el proceso hipotecario. Facilitando la compra de viviendas o la inversión en bienes raíces."
+      },
+      {
+        "title": "Transacciones seguras",
+        "subtitle": "Mejora la confianza y reduce los riesgos asociados con las transacciones inmobiliarias. Utiliza pasarelas de pago seguras o tecnología blockchain para garantizar transacciones seguras y transparentes para los usuarios."
+      },
+      {
+        "title": "Experiencia localizada en el mercado africano",
+        "subtitle": "Accede a una red de profesionales inmobiliarios con un profundo conocimiento del mercado africano. Obtén asesoramiento experto sobre inversiones inmobiliarias, asuntos legales y tendencias del mercado específicas de tu región."
+      },
+      {
+        "title": "Participación comunitaria y networking",
+        "subtitle": "Fomenta un sentido de comunidad al proporcionar características como foros, tableros de discusión o eventos locales. Conecta a los usuarios con personas de ideas afines, facilitando el intercambio de conocimientos y oportunidades de networking."
+      },
+      {
+        "title": "Empoderamiento para ser propietario de vivienda",
+        "subtitle": "Ofrece recursos, opciones de vivienda asequibles y orientación financiera para empoderar a individuos y familias a convertirse en propietarios de vivienda. Contribuye al desarrollo socioeconómico y la estabilidad de las comunidades africanas."
+      },
+      {
+        "title": "Creación de empleo y crecimiento económico",
+        "subtitle": "Crea oportunidades de empleo dentro de la industria inmobiliaria. Conecta a los usuarios con agentes locales, administradores de propiedades, inspectores y otros profesionales, contribuyendo al crecimiento económico y la creación de empleo."
+      },
+      {
+        "title": "Avances tecnológicos en el sector inmobiliario",
+        "subtitle": "Aprovecha las tecnologías modernas para introducir soluciones innovadoras a los desafíos en el sector inmobiliario africano. Implementa recorridos virtuales de propiedades, integración de hogares inteligentes, recomendaciones de propiedades basadas en IA y análisis de datos para mejorar la experiencia del usuario."
+      }
+    ]
+  },
+  "faq": {
+    "title": "Preguntas frecuentes",
+    "items": [
+      {
+        "question": "¿Cómo creo una cuenta?",
+        "answer": "Para crear una cuenta, haz clic en el botón \"Registrarse\" en la esquina superior derecha de la página de inicio y sigue las instrucciones para completar el proceso de registro."
+      },
+      {
+        "question": "¿Puedo listar mi propiedad para alquilar en su plataforma?",
+        "answer": "Sí, puedes listar tu propiedad para alquilar en nuestra plataforma. Simplemente ve a tu panel de cuenta, haz clic en \"Agregar lista de propiedad\" y proporciona los detalles requeridos sobre tu propiedad."
+      },
+      {
+        "question": "¿Qué métodos de pago aceptan?",
+        "answer": "Aceptamos varios métodos de pago, incluyendo tarjetas de crédito/débito, transferencias bancarias y pagos móviles, dependiendo de tu ubicación y del servicio específico que estés utilizando."
+      },
+      {
+        "question": "¿Cuánto tiempo lleva una inspección de vivienda?",
+        "answer": "La duración de una inspección de vivienda puede variar según el tamaño y la complejidad de la propiedad. En promedio, puede llevar entre 1 y 3 horas completar una inspección exhaustiva."
+      },
+      {
+        "question": "¿Se permiten mascotas en las propiedades de alquiler?",
+        "answer": "Las políticas de mascotas pueden variar para cada propiedad de alquiler. Algunas propiedades permiten mascotas con ciertas restricciones, mientras que otras tienen una estricta política de no mascotas. Asegúrate de verificar los detalles de la propiedad o contactar al propietario/administrador de la propiedad para obtener información específica sobre las políticas de mascotas."
+      },
+      {
+        "question": "¿Qué debo hacer si olvido la contraseña de mi cuenta?",
+        "answer": "Si olvidas la contraseña de tu cuenta, puedes hacer clic en el enlace \"¿Olvidaste tu contraseña?\" en la página de inicio de sesión. Sigue las instrucciones para restablecer tu contraseña. Recibirás un correo electrónico con instrucciones adicionales para recuperar el acceso a tu cuenta."
+      },
+      {
+        "question": "¿Cómo puedo contactar al servicio de atención al cliente?",
+        "answer": "Para contactar a nuestro equipo de atención al cliente, puedes visitar la página \"Contáctanos\" en nuestro sitio web. Completa el formulario de contacto con tu consulta o comunícate a través del correo electrónico o número de teléfono proporcionados. Responderemos a tu consulta lo antes posible."
+      }
+    ]
+  }
 }

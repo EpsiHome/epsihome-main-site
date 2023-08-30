@@ -1,9 +1,42 @@
 
 import React, { useState } from 'react';
 import data from '../constant/data';
+import { useTranslation } from 'react-i18next';
 
 const FAQ = () => {
   const [activeIndex, setActiveIndex] = useState(null);
+  const {t} = useTranslation()
+
+  const faq = [
+    {
+      question: t("faq.items.0.question"),
+      answer: t("faq.items.0.answer"),
+    },
+    {
+      question: t("faq.items.1.question"),
+      answer: t("faq.items.1.answer"),
+    },
+    {
+      question: t("faq.items.2.question"),
+      answer: t("faq.items.2.answer"),
+    },
+    {
+      question: t("faq.items.3.question"),
+      answer: t("faq.items.3.answer"),
+    },
+    {
+      question: t("faq.items.4.question"),
+      answer: t("faq.items.4.answer"),
+    },
+    {
+      question: t("faq.items.5.question"),
+      answer: t("faq.items.5.answer"),
+    },
+    {
+      question: t("faq.items.6.question"),
+      answer: t("faq.items.6.answer"),
+    },
+  ];
 
   const toggleAccordion = (index) => {
     setActiveIndex(activeIndex === index ? null : index);
@@ -13,7 +46,7 @@ const FAQ = () => {
     <section id='faq' className="min-h-screen py-8 container mx-auto">
       <h2 className="text-3xl font-bold text-center mb-8">Frequently Asked Questions</h2>
       <div className="space-y-4">
-        {data.faqs.map((faq, index) => (
+        {faq.map((faq, index) => (
           <div key={index} className="border rounded-lg">
             <div
               className={`flex justify-between items-center cursor-pointer p-4 ${
