@@ -130,5 +130,12 @@
         "answer": "Pour contacter notre équipe du service client, vous pouvez vous rendre sur la page \"Nous contacter\" de notre site web. Remplissez le formulaire de contact avec votre demande ou contactez-nous par e-mail ou par téléphone. Nous répondrons à votre demande dans les meilleurs délais."
       }
     ]
+  },
+  "contactUs": {
+    "title": "Contactez-nous",
+    "label1": "Nom",
+    "label2": "Email",
+    "label3": "Message",
+    "button": "Envoyer"
   }
 }

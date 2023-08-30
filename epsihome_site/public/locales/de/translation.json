@@ -128,5 +128,12 @@
         "answer": "Um unser Kundensupport-Team zu kontaktieren, können Sie die Seite \"Kontakt\" auf unserer Website besuchen. Füllen Sie das Kontaktformular mit Ihrer Anfrage aus oder kontaktieren Sie uns per E-Mail oder Telefon. Wir werden Ihre Anfrage so schnell wie möglich beantworten."
       }
     ]
+  },
+  "contactUs": {
+    "title": "Kontaktiere uns",
+    "label1": "Name",
+    "label2": "E-Mail",
+    "label3": "Nachricht",
+    "button": "Senden"
   }
 }

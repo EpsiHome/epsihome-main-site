@@ -128,5 +128,12 @@
         "answer": "Para contactar a nuestro equipo de atención al cliente, puedes visitar la página \"Contáctanos\" en nuestro sitio web. Completa el formulario de contacto con tu consulta o comunícate a través del correo electrónico o número de teléfono proporcionados. Responderemos a tu consulta lo antes posible."
       }
     ]
+  },
+  "contactUs": {
+    "title": "Contáctanos",
+    "label1": "Nombre",
+    "label2": "Correo electrónico",
+    "label3": "Mensaje",
+    "button": "Enviar"
   }
 }

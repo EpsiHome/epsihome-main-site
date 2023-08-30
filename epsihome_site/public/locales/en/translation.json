@@ -129,5 +129,12 @@
         "answer": "To contact our customer support team, you can visit the \"Contact Us\" page on our website. Fill out the contact form with your inquiry or reach out to the provided email or phone number. We will respond to your query as soon as possible."
       }
     ]
+  },
+  "contactUs":{
+    "title":"contact us",
+    "label1":"Name",
+    "label2":"Email",
+    "label3":"Message",
+    "button":"Submit"
   }
 }
