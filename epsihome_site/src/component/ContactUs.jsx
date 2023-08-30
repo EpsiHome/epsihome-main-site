@@ -5,10 +5,10 @@ const ContactUs = () => {
   const [name, setName] = React.useState("");
   const [email, setEmail] = React.useState("");
   const [message, setMessage] = React.useState("");
-  const {t} = useTranslation()
+  const { t } = useTranslation();
 
   return (
-    <section id="contact" className="contact pt-6 min-h-screen bg-white ">
+    <section id="contact" className="contact pt-6 min-h-screen bg-white">
       <h1 className="text-3xl text-center my-4 text-gray-800 uppercase font-bold">
         {t("contactUs.title")}
       </h1>
@@ -18,7 +18,7 @@ const ContactUs = () => {
           action="https://formspree.io/f/xleybrwj"
           method="POST"
           // onSubmit={handleSubmit}
-          className="w-full max-w-lg"
+          className="w-90p max-w-lg w-[80%]" // Updated class to make the form container responsive
         >
           <div className="mb-4">
             <label htmlFor="name" className="text-[#030303] block mb-2">
