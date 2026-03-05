@@ -7,6 +7,15 @@
     "benefits": "Benefits",
     "contact": "Contact Us"
   },
+  "hero": {
+    "badge": "Proptech for African real estate",
+    "tagline": "Find, finance, and manage property across Africa in one platform.",
+    "subcopy": "EpsiHome connects renters, buyers, landlords, and lenders on a single platform—combining listings, financing, and property management with local expertise and trustworthy data.",
+    "ctaUser": "Join the early access list",
+    "ctaInvestor": "For investors",
+    "point1": "End-to-end property journey",
+    "point2": "Built for Africa and its diaspora"
+  },
   "services": {
     "title": "Our Services",
     "items": [
@@ -55,6 +64,13 @@
     "listItem5": "We are committed to helping develop our economy by providing employment and revolutionizing the way real estate-related activities are carried out in Cameroon and Africa.",
     "listItem6": "We offer real estate investment tools to help people grow their wealth.",
     "listItem7": "We provide mortgages to help people own their own homes."
+  },
+  "vision": {
+    "title": "Our Vision & Mission",
+    "visionLabel": "Vision",
+    "vision": "EpsiHome’s vision is to make safe, transparent homeownership and real estate investing possible for millions of Africans and the diaspora by digitizing every step of the property journey.",
+    "missionLabel": "Mission",
+    "mission": "EpsiHome’s mission is to unify property discovery, financing, and management into one trusted platform—delivered through web, mobile, and APIs—starting in Cameroon and expanding across Africa."
   },
   "benefits":{
     "title":"",

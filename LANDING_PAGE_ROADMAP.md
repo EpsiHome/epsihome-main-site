@@ -24,13 +24,13 @@
 
 ## Product Story: Vision, Mission, and Key Messages
 
-### Draft Vision & Mission (to be refined by founders)
+### Vision & Mission (v1)
 
 - **Vision (north star)**  
-  Enable secure, transparent, and accessible homeownership and real estate investing across Africa by building the digital infrastructure that connects people, properties, and capital.
+  EpsiHome’s vision is to make safe, transparent homeownership and real estate investing possible for millions of Africans and the diaspora by digitizing every step of the property journey.
 
-- **Mission (what we are doing now)**  
-  Provide a unified platform where African residents, diaspora, and investors can discover properties, secure financing, and manage real estate assets through modern web, mobile, and API-driven tools.
+- **Mission (current focus)**  
+  EpsiHome’s mission is to unify property discovery, financing, and management into one trusted platform—delivered through web, mobile, and APIs—starting in Cameroon and expanding across Africa.
 
 ### Core Audiences
 
@@ -82,11 +82,11 @@ Proposed section order for `epsihome-main-site`:
 - **Goals**
   - Immediately answer: **What is EpsiHome? For whom? Why should I care?**
   - Split attention between **customers** (“Find, finance, and manage properties”) and **investors** (“Invest in Africa’s real estate infrastructure”).
-- **Suggested content**
-  - **Tagline example**:  
-    “The digital rails for African real estate.”
-  - **Subcopy example**:  
-    “EpsiHome connects renters, buyers, landlords, and lenders on a single platform—spanning marketplace listings, property management, inspections, insurance, and mortgages.”
+- **Suggested content (v1)**
+  - **Tagline**:  
+    “Find, finance, and manage property across Africa in one platform.”
+  - **Subcopy**:  
+    “EpsiHome connects renters, buyers, landlords, and lenders on a single platform—combining listings, financing, and property management with local expertise and trustworthy data.”
   - **Primary CTA (user-focused)**:  
     - Text: **“Join the early access list”**  
     - Action: Opens a short form (name, email, role) or scrolls to contact with pre-filled context.
@@ -246,6 +246,34 @@ Proposed section order for `epsihome-main-site`:
   - Align founders/leadership on narrative and preferred emphasis (e.g. housing access vs. fintech angle).
 - **Deliverables**
   - Internal “Messaging v1” document with all key statements and value props.
+
+#### Phase 1 Outputs (current)
+
+- **Hero messaging**
+  - **Tagline**: “Find, finance, and manage property across Africa in one platform.”
+  - **Subcopy**: “EpsiHome connects renters, buyers, landlords, and lenders on a single platform—combining listings, financing, and property management with local expertise and trustworthy data.”
+- **Vision & mission**
+  - **Vision**: “EpsiHome’s vision is to make safe, transparent homeownership and real estate investing possible for millions of Africans and the diaspora by digitizing every step of the property journey.”
+  - **Mission**: “EpsiHome’s mission is to unify property discovery, financing, and management into one trusted platform—delivered through web, mobile, and APIs—starting in Cameroon and expanding across Africa.”
+- **Core value propositions (summary)**
+  - Help **renters and buyers** safely discover and evaluate properties with better data and access to financing.
+  - Give **landlords and property managers** a single workspace to list, manage, and analyze property performance.
+  - Enable **lenders and insurers** to access richer, structured data that de-risks underwriting and acquisition.
+  - Offer **investors** exposure to a large, fragmented African real estate market through an integrated platform that spans discovery, decisioning, financing, and ongoing management.
+- **Brand & color direction (v1)**
+  - **Primary**: Deep navy `#0B1F3B` (headers, primary buttons, key accents).
+  - **Secondary**: Warm amber `#F4A623` (highlights, secondary buttons, chips).
+  - **Accent**: Emerald `#10B981` (success states, positive metrics, callouts).
+  - **Background light**: Soft off-white `#F5F7FB` (page background, cards).
+  - **Background dark**: Rich blue-black `#070B13` (footer, dark sections).
+  - **Text neutrals**:  
+    - Primary text `#111827` (headings, body).  
+    - Muted text `#6B7280` (helper text, secondary copy).  
+  - **Usage notes**:
+    - Use **deep navy** as the main brand color for navigation, primary CTAs, and hero headings.
+    - Use **warm amber** sparingly to draw attention to key actions (e.g. “For investors”) and important metrics.
+    - Use **emerald** for “positive” UI states, trust badges, and growth/impact indicators.
+    - Keep plenty of negative space with **light background** and apply subtle borders/shadows instead of heavy blocks of color.
 
 ### Phase 2 – UX Architecture & Wireframes (Week 2)
 

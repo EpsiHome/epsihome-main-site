@@ -1,10 +1,19 @@
 {
   "header": {
     "services": "Servicios",
-    "about": "Sobre nosotras",
-    "faq": "PF",
+    "about": "Sobre nosotros",
+    "faq": "FAQ",
     "benefits": "Beneficios",
-    "contact": "Contacta con nosotras"
+    "contact": "Contáctanos"
+  },
+  "hero": {
+    "badge": "Proptech para el mercado inmobiliario africano",
+    "tagline": "Encuentra, financia y gestiona propiedades en África desde una sola plataforma.",
+    "subcopy": "EpsiHome conecta a inquilinos, compradores, propietarios y entidades financieras en una misma plataforma, combinando anuncios, financiación y gestión de propiedades con experiencia local y datos confiables.",
+    "ctaUser": "Únete a la lista de acceso anticipado",
+    "ctaInvestor": "Para inversores",
+    "point1": "Recorrido inmobiliario de principio a fin",
+    "point2": "Diseñado para África y su diáspora"
   },
   "services": {
     "title": "Nuestros Servicios",
@@ -44,7 +53,7 @@
     ]
   },
   "aboutUs": {
-    "title": "sobre nosotros",
+    "title": "Sobre nosotros",
     "description1": "Somos una empresa de tecnología inmobiliaria que ofrece un conjunto de servicios para ayudar a las personas a comprar, vender y alquilar viviendas. Nuestra misión es hacer el proceso de bienes raíces más eficiente y transparente para todas las partes involucradas.",
     "description2": "Creemos que todos deberían tener acceso a viviendas asequibles y nos comprometemos a utilizar nuestra tecnología para hacerlo realidad. También nos apasiona crear una industria inmobiliaria más sostenible y estamos trabajando en la implementación de soluciones innovadoras para reducir nuestro impacto ambiental.",
     "listItem1": "Proporcionamos una plataforma para que compradores y vendedores se conecten entre sí.",
@@ -54,6 +63,13 @@
     "listItem5": "Nos comprometemos a contribuir al desarrollo de nuestra economía mediante la generación de empleo y revolucionando la forma en que se llevan a cabo las actividades relacionadas con bienes raíces en Camerún y África.",
     "listItem6": "Ofrecemos herramientas de inversión inmobiliaria para ayudar a las personas a hacer crecer su patrimonio.",
     "listItem7": "Proporcionamos hipotecas para ayudar a las personas a ser propietarias de su propia vivienda."
+  },
+  "vision": {
+    "title": "Nuestra visión y misión",
+    "visionLabel": "Visión",
+    "vision": "La visión de EpsiHome es hacer posible una propiedad de vivienda e inversión inmobiliaria seguras y transparentes para millones de africanos y miembros de la diáspora, digitalizando cada paso del recorrido inmobiliario.",
+    "missionLabel": "Misión",
+    "mission": "La misión de EpsiHome es unificar la búsqueda de propiedades, la financiación y la gestión en una plataforma de confianza — disponible vía web, móvil y APIs — comenzando en Camerún y ampliándose progresivamente por toda África."
   },
   "benefits": {
     "title": "",
