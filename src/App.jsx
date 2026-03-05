@@ -6,6 +6,9 @@ import {
   FAQ,
   Header,
   Hero,
+  HowItWorks,
+  Investors,
+  ProductEcosystem,
   Service,
   VisionMission,
 } from "./component"
@@ -16,10 +19,13 @@ function App() {
       <Header />
       <main>
         <Hero />
+        <HowItWorks />
         <Service />
         <Benefits />
+        <ProductEcosystem />
         <AboutUs />
         <VisionMission />
+        <Investors />
         <FAQ />
         <Contact />
       </main>

@@ -51,6 +51,14 @@ function Header() {
         >
           <li>
             <a
+              href="#how-it-works"
+              className="block text-epsi-muted hover:text-epsi-primary transition-colors"
+            >
+              {t("header.howItWorks", "How it works")}
+            </a>
+          </li>
+          <li>
+            <a
               href="#services"
               className="block text-epsi-muted hover:text-epsi-primary transition-colors"
             >
@@ -79,6 +87,14 @@ function Header() {
               className="block text-epsi-muted hover:text-epsi-primary transition-colors"
             >
               {t("header.benefits")}
+            </a>
+          </li>
+          <li>
+            <a
+              href="#investors"
+              className="block text-epsi-muted hover:text-epsi-primary transition-colors"
+            >
+              {t("header.investors", "Investors")}
             </a>
           </li>
           <li>
