@@ -10,7 +10,7 @@ function Header() {
   }
 
   return (
-    <header className="bg-epsi-primary text-white fixed top-0 left-0 w-full z-20 shadow-sm">
+    <header className="bg-white text-epsi-primary fixed top-0 left-0 w-full z-20 shadow-sm border-b border-slate-200">
       <nav className="max-w-6xl mx-auto px-4 py-3 flex flex-wrap items-center justify-between">
         <a href="#hero" className="flex items-center gap-2 font-bold text-xl">
           <span className="inline-flex h-7 w-7 items-center justify-center rounded-full bg-epsi-secondary text-xs font-semibold text-epsi-bg-light">
@@ -21,7 +21,7 @@ function Header() {
         <div className="md:hidden">
           <button
             type="button"
-            className="text-white hover:text-epsi-secondary focus:outline-none"
+            className="text-epsi-primary hover:text-epsi-secondary focus:outline-none"
             onClick={() => setIsMenuOpen(!isMenuOpen)}
           >
             <svg
@@ -52,7 +52,7 @@ function Header() {
           <li>
             <a
               href="#services"
-              className="block text-white/90 hover:text-epsi-secondary transition-colors"
+              className="block text-epsi-muted hover:text-epsi-primary transition-colors"
             >
               {t("header.services")}
             </a>
@@ -60,7 +60,7 @@ function Header() {
           <li>
             <a
               href="#about"
-              className="block text-white/90 hover:text-epsi-secondary transition-colors"
+              className="block text-epsi-muted hover:text-epsi-primary transition-colors"
             >
               {t("header.about")}
             </a>
@@ -68,7 +68,7 @@ function Header() {
           <li>
             <a
               href="#faq"
-              className="block text-white/90 hover:text-epsi-secondary transition-colors"
+              className="block text-epsi-muted hover:text-epsi-primary transition-colors"
             >
               {t("header.faq")}
             </a>
@@ -76,7 +76,7 @@ function Header() {
           <li>
             <a
               href="#benefits"
-              className="block text-white/90 hover:text-epsi-secondary transition-colors"
+              className="block text-epsi-muted hover:text-epsi-primary transition-colors"
             >
               {t("header.benefits")}
             </a>
@@ -84,7 +84,7 @@ function Header() {
           <li>
             <a
               href="#contact"
-              className="block text-white/90 hover:text-epsi-secondary transition-colors"
+              className="block text-epsi-muted hover:text-epsi-primary transition-colors"
             >
               {t("header.contact")}
             </a>
