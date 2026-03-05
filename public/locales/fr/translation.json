@@ -27,6 +27,7 @@
   },
   "services": {
     "title": "Nos services",
+    "subtitle": "Tout ce dont vous avez besoin pour découvrir, financer et gérer vos biens immobiliers sur une seule plateforme.",
     "items": [
       {
         "title": "Place de marché",
@@ -131,7 +132,7 @@
     "ctaCall": "Parler à l’équipe"
   },
   "benefits": {
-    "title": "",
+    "title": "Pourquoi EpsiHome",
     "items": [
       {
         "title": "Accès amélioré aux annonces immobilières",
@@ -173,6 +174,7 @@
   },
   "faq": {
     "title": "Questions fréquemment posées",
+    "subtitle": "Les réponses aux questions les plus courantes de nos premiers utilisateurs, partenaires et de la communauté.",
     "items": [
       {
         "question": "Comment puis-je créer un compte ?",
@@ -206,9 +208,32 @@
   },
   "contactUs": {
     "title": "Contactez-nous",
+    "subtitle": "Dites-nous qui vous êtes et comment nous pouvons vous aider — que vous soyez client, partenaire ou investisseur.",
     "label1": "Nom",
     "label2": "Email",
     "label3": "Message",
+    "reason": "Raison de votre message",
+    "reasonGeneral": "Général",
+    "reasonPartnership": "Partenariat",
+    "reasonInvestor": "Investisseur",
+    "reasonSupport": "Support",
+    "investorDetails": "Nom du fonds / taille de ticket / lien vers le profil (optionnel)",
     "button": "Envoyer"
+  },
+  "trust": {
+    "title": "Pensé pour la confiance et l’impact",
+    "subtitle": "EpsiHome se situe à l’intersection de la fintech et de l’immobilier, avec un focus sur la sécurité, l’inclusion et la création de valeur à long terme.",
+    "partners": {
+      "label": "Partenaires et écosystème",
+      "body": "Nous construisons avec des banques, assureurs, agences et opérateurs qui connaissent le terrain et la réalité du logement en Afrique."
+    },
+    "security": {
+      "label": "Sécurité et transparence",
+      "body": "Des paiements aux documents, EpsiHome est conçu pour réduire la fraude et apporter plus de clarté à toutes les parties prenantes."
+    },
+    "impact": {
+      "label": "Impact et inclusion",
+      "body": "Notre objectif est de faciliter l’accès à un logement sûr et à l’investissement immobilier pour des millions d’Africains et de membres de la diaspora."
+    }
   }
 }

@@ -24,7 +24,8 @@
     "point2": "Plataforma que une anuncios, datos y financiación"
   },
   "services": {
-    "title": "Nuestros Servicios",
+    "title": "Nuestros servicios",
+    "subtitle": "Todo lo que necesitas para descubrir, financiar y gestionar propiedades en un solo lugar.",
     "items": [
       {
         "title": "Mercado Inmobiliario",
@@ -129,7 +130,7 @@
     "ctaCall": "Hablar con el equipo"
   },
   "benefits": {
-    "title": "",
+    "title": "Por qué EpsiHome",
     "items": [
       {
         "title": "Acceso mejorado a listados de bienes raíces",
@@ -171,6 +172,7 @@
   },
   "faq": {
     "title": "Preguntas frecuentes",
+    "subtitle": "Respuestas a las preguntas más habituales de usuarios iniciales, socios y la comunidad.",
     "items": [
       {
         "question": "¿Cómo creo una cuenta?",
@@ -204,9 +206,32 @@
   },
   "contactUs": {
     "title": "Contáctanos",
+    "subtitle": "Cuéntanos quién eres y cómo podemos ayudarte — ya seas cliente, socio o inversor.",
     "label1": "Nombre",
     "label2": "Correo electrónico",
     "label3": "Mensaje",
+    "reason": "Motivo de tu consulta",
+    "reasonGeneral": "General",
+    "reasonPartnership": "Alianza",
+    "reasonInvestor": "Inversor",
+    "reasonSupport": "Soporte",
+    "investorDetails": "Nombre del fondo / tamaño de ticket / enlace al perfil (opcional)",
     "button": "Enviar"
+  },
+  "trust": {
+    "title": "Diseñado para confianza e impacto",
+    "subtitle": "EpsiHome se sitúa en la intersección entre fintech e inmobiliario, con foco en seguridad, inclusión y valor a largo plazo.",
+    "partners": {
+      "label": "Socios y ecosistema",
+      "body": "Construimos junto a bancos, aseguradoras, agencias y operadores que conocen de primera mano la realidad de la vivienda en África."
+    },
+    "security": {
+      "label": "Seguridad y transparencia",
+      "body": "Desde pagos hasta documentos, EpsiHome está diseñado para reducir el fraude y aumentar la claridad para todas las partes."
+    },
+    "impact": {
+      "label": "Impacto e inclusión",
+      "body": "Nuestro objetivo es abrir el acceso a vivienda segura e inversión inmobiliaria para millones de africanos y miembros de la diáspora."
+    }
   }
 }
