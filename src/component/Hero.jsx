@@ -1,6 +1,7 @@
 import React, { useState } from "react"
 import { useTranslation } from "react-i18next"
 import images from "../constant/images"
+import { trackEvent } from "../lib/analytics"
 
 const Hero = () => {
   const { t } = useTranslation()
@@ -45,7 +46,10 @@ const Hero = () => {
           <div className="flex flex-wrap gap-3 mb-6">
             <button
               type="button"
-              onClick={() => setAudience("customers")}
+              onClick={() => {
+                setAudience("customers")
+                trackEvent("hero_audience_toggle", { audience: "customers" })
+              }}
               className={`flex-1 inline-flex items-center justify-center rounded-md px-5 py-2.5 text-sm font-semibold border transition-colors ${
                 !isInvestors
                   ? "bg-epsi-primary text-white border-epsi-primary"
@@ -56,7 +60,10 @@ const Hero = () => {
             </button>
             <button
               type="button"
-              onClick={() => setAudience("investors")}
+              onClick={() => {
+                setAudience("investors")
+                trackEvent("hero_audience_toggle", { audience: "investors" })
+              }}
               className={`flex-1 inline-flex items-center justify-center rounded-md px-5 py-2.5 text-sm font-semibold border transition-colors ${
                 isInvestors
                   ? "bg-epsi-primary text-white border-epsi-primary"

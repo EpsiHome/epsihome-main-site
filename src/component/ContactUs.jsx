@@ -1,5 +1,6 @@
 import React from "react"
 import { useTranslation } from "react-i18next"
+import { trackEvent } from "../lib/analytics"
 
 const ContactUs = () => {
   const [name, setName] = React.useState("")
@@ -28,6 +29,11 @@ const ContactUs = () => {
           action="https://formspree.io/f/xleybrwj"
           method="POST"
           className="space-y-4"
+          onSubmit={() =>
+            trackEvent("contact_form_submit", {
+              reason,
+            })
+          }
         >
           <div>
             <label
@@ -41,7 +47,11 @@ const ContactUs = () => {
               name="reason"
               className="w-full rounded-md border border-slate-600 bg-transparent px-3 py-2 text-sm text-white focus:outline-none focus:ring-1 focus:ring-epsi-secondary focus:border-epsi-secondary"
               value={reason}
-              onChange={(e) => setReason(e.target.value)}
+              onChange={(e) => {
+                const next = e.target.value
+                setReason(next)
+                trackEvent("contact_reason_change", { reason: next })
+              }}
             >
               <option value="General">
                 {t("contactUs.reasonGeneral", "General")}
