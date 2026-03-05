@@ -12,10 +12,16 @@
     "badge": "Proptech pour l’immobilier africain",
     "tagline": "Trouvez, financez et gérez des biens immobiliers en Afrique sur une seule plateforme.",
     "subcopy": "EpsiHome connecte locataires, acheteurs, propriétaires et prêteurs sur une même plateforme, en combinant annonces, financement et gestion immobilière avec une expertise locale et des données fiables.",
-    "ctaUser": "Rejoindre la liste d’accès anticipé",
-    "ctaInvestor": "Pour les investisseurs",
+  "ctaUser": "Pour les clients",
+  "ctaInvestor": "Pour les investisseurs",
     "point1": "Parcours immobilier de bout en bout",
     "point2": "Conçu pour l’Afrique et sa diaspora"
+  },
+  "heroInvestor": {
+    "tagline": "Investissez dans l’infrastructure immobilière africaine.",
+    "subcopy": "EpsiHome construit les rails numériques de l’immobilier en Afrique — en réunissant annonces, données et capitaux pour permettre aux investisseurs de soutenir un écosystème moderne et technologique sur tout le continent.",
+    "point1": "Un marché immobilier vaste et fragmenté",
+    "point2": "Une plateforme qui relie annonces, données et financement"
   },
   "services": {
     "title": "Nos services",

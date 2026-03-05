@@ -9,12 +9,18 @@
   },
   "hero": {
     "badge": "Proptech for African real estate",
-    "tagline": "Find, finance, and manage property across Africa in one platform.",
-    "subcopy": "EpsiHome connects renters, buyers, landlords, and lenders on a single platform—combining listings, financing, and property management with local expertise and trustworthy data.",
-    "ctaUser": "Join the early access list",
-    "ctaInvestor": "For investors",
+  "tagline": "Find, finance, and manage property across Africa in one platform.",
+  "subcopy": "EpsiHome connects renters, buyers, landlords, and lenders on a single platform combining listings, financing, and property management with local expertise and trustworthy data.",
+  "ctaUser": "For customers",
+  "ctaInvestor": "For investors",
     "point1": "End-to-end property journey",
     "point2": "Built for Africa and its diaspora"
+  },
+  "heroInvestor": {
+    "tagline": "Invest in Africa’s real estate infrastructure.",
+    "subcopy": "EpsiHome is building the rails for African real estate—aggregating listings, data, and capital so investors can back a modern, tech-enabled ecosystem across the continent.",
+    "point1": "Large, fragmented real estate market",
+    "point2": "Platform spanning listings, data, and finance"
   },
   "services": {
     "title": "Our Services",
