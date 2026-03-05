@@ -1,31 +1,27 @@
-import { loadLanguages } from "i18next";
-import React from "react";
-import { useState } from "react";
-import { useTranslation, withTranslation, Trans } from "react-i18next";
+import React, { useState } from "react"
+import { useTranslation } from "react-i18next"
 
 function Header() {
-  const { t, i18n } = useTranslation();
+  const { t, i18n } = useTranslation()
   const [isMenuOpen, setIsMenuOpen] = useState(false)
 
   const changeLanguage = (language) => {
-    i18n.changeLanguage(language);
-  };
-
-  const toggleMenu = () => {
-    setIsMenuOpen(!isMenuOpen)
+    i18n.changeLanguage(language)
   }
 
   return (
-    <header className="bg-gray-800 fixed top-0 left-0 text-white w-[100%] py-4">
-      <nav className="container mx-auto px-4 flex flex-wrap items-center justify-between ">
-        <a href="/" className="flex items-center text-white font-bold text-xl">
-          EpsiHome
+    <header className="bg-epsi-primary text-white fixed top-0 left-0 w-full z-20 shadow-sm">
+      <nav className="max-w-6xl mx-auto px-4 py-3 flex flex-wrap items-center justify-between">
+        <a href="#hero" className="flex items-center gap-2 font-bold text-xl">
+          <span className="inline-flex h-7 w-7 items-center justify-center rounded-full bg-epsi-secondary text-xs font-semibold text-epsi-bg-light">
+            EH
+          </span>
+          <span>EpsiHome</span>
         </a>
-        <div className="md:hidden relative left-36 ">
-          {/* Hamburger menu */}
+        <div className="md:hidden">
           <button
             type="button"
-            className="text-gray-500 hover:text-gray-400 focus:outline-none focus:text-gray-400"
+            className="text-white hover:text-epsi-secondary focus:outline-none"
             onClick={() => setIsMenuOpen(!isMenuOpen)}
           >
             <svg
@@ -51,36 +47,45 @@ function Header() {
         <ul
           className={`${
             isMenuOpen ? "" : "hidden"
-          } md:flex md:ml-2 md:space-x-6 ml-2 space-y-4 md:space-y-0 pt-4 md:pt-0 list-none`}
+          } md:flex md:ml-4 md:space-x-6 ml-2 space-y-4 md:space-y-0 pt-4 md:pt-0 list-none text-sm`}
         >
           <li>
             <a
               href="#services"
-              className="block text-white hover:text-gray-400"
+              className="block text-white/90 hover:text-epsi-secondary transition-colors"
             >
               {t("header.services")}
             </a>
           </li>
           <li>
-            <a href="#about" className="block text-white hover:text-gray-400">
+            <a
+              href="#about"
+              className="block text-white/90 hover:text-epsi-secondary transition-colors"
+            >
               {t("header.about")}
             </a>
           </li>
           <li>
-            <a href="#faq" className="block text-white hover:text-gray-400">
+            <a
+              href="#faq"
+              className="block text-white/90 hover:text-epsi-secondary transition-colors"
+            >
               {t("header.faq")}
             </a>
           </li>
           <li>
             <a
               href="#benefits"
-              className="block text-white hover:text-gray-400"
+              className="block text-white/90 hover:text-epsi-secondary transition-colors"
             >
               {t("header.benefits")}
             </a>
           </li>
           <li>
-            <a href="#contact" className="block text-white hover:text-gray-400">
+            <a
+              href="#contact"
+              className="block text-white/90 hover:text-epsi-secondary transition-colors"
+            >
               {t("header.contact")}
             </a>
           </li>
@@ -88,7 +93,7 @@ function Header() {
         <div className="md:ml-6 ml-2 text-gray-800">
           <div className="relative">
             <select
-              className="block appearance-none w-full bg-white border border-gray-300 hover:border-gray-400 px-4 py-2 pr-8 rounded-md shadow-lg focus:outline-none focus:ring-1 focus:ring-blue-500 focus:border-blue-500"
+              className="block appearance-none w-full bg-white border border-slate-200 hover:border-epsi-secondary px-4 py-2 pr-8 rounded-md shadow-lg text-sm text-epsi-text focus:outline-none focus:ring-1 focus:ring-epsi-secondary focus:border-epsi-secondary"
               onChange={(e) => changeLanguage(e.target.value)}
             >
               <option value="en">English 🇺🇸</option>

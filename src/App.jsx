@@ -1,17 +1,30 @@
-import React from "react";
-import { AboutUs, Contact, Header, Service,Benefits, FAQ } from "./component";
+import React from "react"
+import {
+  AboutUs,
+  Benefits,
+  Contact,
+  FAQ,
+  Header,
+  Hero,
+  Service,
+  VisionMission,
+} from "./component"
 
 function App() {
   return (
-    <div className="">
-      <Header/>
-      <Service/>
-      <AboutUs/>
-      <FAQ/>
-      <Benefits/>
-      <Contact/>
+    <div className="min-h-screen bg-epsi-bg-light">
+      <Header />
+      <main>
+        <Hero />
+        <Service />
+        <Benefits />
+        <AboutUs />
+        <VisionMission />
+        <FAQ />
+        <Contact />
+      </main>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
