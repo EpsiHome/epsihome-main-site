@@ -1,13 +1,31 @@
 {
   "header": {
+    "howItWorks": "So funktioniert es",
     "services": "Dienstleistungen",
-    "about": "über uns",
-    "faq": "OGF",
+    "about": "Über uns",
+    "faq": "FAQ",
     "benefits": "Vorteile",
-    "contact": "kontaktiere uns"
+    "contact": "Kontakt",
+    "investors": "Investoren"
+  },
+  "hero": {
+    "badge": "Proptech für den afrikanischen Immobilienmarkt",
+    "tagline": "Finden, finanzieren und verwalten Sie Immobilien in Afrika auf einer einzigen Plattform.",
+    "subcopy": "EpsiHome verbindet Mieter, Käufer, Eigentümer und Kreditgeber auf einer gemeinsamen Plattform und kombiniert Inserate, Finanzierung und Immobilienverwaltung mit lokaler Expertise und verlässlichen Daten.",
+  "ctaUser": "Für Kunden",
+  "ctaInvestor": "Für Investoren",
+    "point1": "Durchgängiger Immobilien‑Lifecycle",
+    "point2": "Für Afrika und seine Diaspora entwickelt"
+  },
+  "heroInvestor": {
+    "tagline": "Investieren Sie in die Immobilien-Infrastruktur Afrikas.",
+    "subcopy": "EpsiHome baut die digitalen Schienen für den afrikanischen Immobilienmarkt — wir bündeln Inserate, Daten und Kapital, damit Investoren ein modernes, technologiegestütztes Ökosystem auf dem ganzen Kontinent unterstützen können.",
+    "point1": "Großer, fragmentierter Immobilienmarkt",
+    "point2": "Plattform, die Inserate, Daten und Finanzierung verbindet"
   },
   "services": {
     "title": "Unsere Dienstleistungen",
+    "subtitle": "Alles, was Sie benötigen, um Immobilien zu finden, zu finanzieren und zu verwalten – auf einer Plattform.",
     "items": [
       {
         "title": "Marktplatz",
@@ -44,7 +62,7 @@
     ]
   },
   "aboutUs": {
-    "title": "über uns",
+    "title": "Über uns",
     "description1": "Wir sind ein Proptech-Unternehmen, das eine Reihe von Dienstleistungen anbietet, um Menschen beim Kauf, Verkauf und zur Miete von Wohnungen zu helfen. Unsere Mission ist es, den Immobilienprozess für alle Beteiligten effizienter und transparenter zu gestalten.",
     "description2": "Wir sind der Überzeugung, dass jeder Zugang zu erschwinglichem Wohnraum haben sollte, und wir setzen uns dafür ein, dies mithilfe unserer Technologie zu ermöglichen. Darüber hinaus liegt uns die Schaffung einer nachhaltigeren Immobilienbranche am Herzen, und wir arbeiten daran, innovative Lösungen zur Verringerung unserer Umweltauswirkungen umzusetzen.",
     "listItem1": "Wir bieten eine Plattform, auf der Käufer und Verkäufer miteinander in Kontakt treten können.",
@@ -55,8 +73,64 @@
     "listItem6": "Wir bieten Tools für Immobilieninvestitionen, um Menschen dabei zu helfen, ihr Vermögen zu vermehren.",
     "listItem7": "Wir bieten Hypotheken, um Menschen dabei zu helfen, ihr eigenes Zuhause zu besitzen."
   },
+  "vision": {
+    "title": "Unsere Vision und Mission",
+    "visionLabel": "Vision",
+    "vision": "Die Vision von EpsiHome ist es, sicheren und transparenten Eigenheimbesitz sowie Immobilieninvestments für Millionen von Afrikanern und Angehörigen der Diaspora zu ermöglichen, indem jeder Schritt der Immobilienreise digitalisiert wird.",
+    "missionLabel": "Mission",
+    "mission": "Die Mission von EpsiHome ist es, Immobiliensuche, Finanzierung und Verwaltung in einer vertrauenswürdigen Plattform zu vereinen – verfügbar über Web, Mobile und APIs, beginnend in Kamerun und mit einer schrittweisen Ausweitung über ganz Afrika."
+  },
+  "howItWorks": {
+    "title": "So funktioniert EpsiHome",
+    "subtitle": "EpsiHome verbindet alle Schritte der Immobilienreise – von der Suche und Entscheidung bis zur Finanzierung und langfristigen Verwaltung – für alle Beteiligten im Ökosystem.",
+    "renters": {
+      "title": "Für Mieter und Käufer",
+      "step1": "Durchsuchen Sie geprüfte Inserate mit transparenten Informationen.",
+      "step2": "Schätzen Sie Leistbarkeit und potenzielle Renditen mit integrierten Tools ein.",
+      "step3": "Beantragen Sie eine Finanzierung und schließen Sie den Kauf vollständig digital ab."
+    },
+    "owners": {
+      "title": "Für Vermieter und Verwalter",
+      "step1": "Listen Sie Objekte auf dem Marktplatz und erreichen Sie mehr qualifizierte Mieter.",
+      "step2": "Verfolgen Sie Verträge, Zahlungen und Ausgaben in einem gemeinsamen Dashboard.",
+      "step3": "Verbinden Sie sich mit Services wie Inspektionen, Wartung und Versicherungen."
+    },
+    "lenders": {
+      "title": "Für Kreditgeber und Versicherer",
+      "step1": "Definieren Sie Produkte und Underwriting‑Kriterien.",
+      "step2": "Erhalten Sie qualifizierte Anfragen mit reichhaltigeren Objekt‑ und Kundendaten.",
+      "step3": "Integrieren Sie sich über APIs, um Entscheidungen und Servicing zu automatisieren."
+    }
+  },
+  "ecosystem": {
+    "title": "Eine Plattform, drei Berührungspunkte",
+    "subtitle": "EpsiHome verbindet das öffentliche Web‑Erlebnis, die mobile App in den Händen der Nutzer und die Infrastruktur im Hintergrund.",
+    "web": {
+      "title": "Web‑App",
+      "body": "Moderne Dashboards für Suche, Onboarding und Portfoliomanagement über alle Immobilien hinweg."
+    },
+    "mobile": {
+      "title": "Mobile App",
+      "body": "Mobile Erfahrung für Mieter, Käufer und Eigentümer mit Messaging, Benachrichtigungen und Aufgabenverfolgung."
+    },
+    "backend": {
+      "title": "Backend & APIs",
+      "body": "Sichere Services und APIs, die Inserate, Zahlungen, Datenpipelines und Integrationen mit Banken und Versicherern betreiben."
+    }
+  },
+  "investors": {
+    "title": "Für Investoren",
+    "subtitle": "EpsiHome bietet Investoren Zugang zum afrikanischen Immobilienmarkt über eine Plattform, die Menschen, Objekte und Kapital verbindet.",
+    "problemTitle": "Problem",
+    "problemBody": "Der afrikanische Immobilienmarkt ist groß, aber fragmentiert – mit intransparenten Preisen, Offline‑Prozessen und eingeschränktem Zugang zu sicherer Finanzierung.",
+    "solutionTitle": "Lösung",
+    "solutionBody": "EpsiHome baut eine einheitliche Schicht über Suche, Daten, Finanzierung und Verwaltung auf und schafft so eine vertrauenswürdige Infrastruktur.",
+    "whyNowTitle": "Warum jetzt",
+    "whyNowBody": "Smartphone‑Verbreitung, digitale Zahlungen und eine junge, urbanisierende Bevölkerung machen jetzt den richtigen Zeitpunkt, um den Zugang zu Wohnen und Immobilieninvestments zu digitalisieren.",
+    "ctaCall": "Mit dem Team sprechen"
+  },
   "benefits": {
-    "title": "",
+    "title": "Warum EpsiHome",
     "items": [
       {
         "title": "Verbesserter Zugang zu Immobilienangeboten",
@@ -98,6 +172,7 @@
   },
   "faq": {
     "title": "Häufig gestellte Fragen",
+    "subtitle": "Antworten auf häufige Fragen von frühen Nutzern, Partnern und der Community.",
     "items": [
       {
         "question": "Wie erstelle ich ein Konto?",
@@ -130,10 +205,33 @@
     ]
   },
   "contactUs": {
-    "title": "Kontaktiere uns",
+    "title": "Kontaktieren Sie uns",
+    "subtitle": "Erzählen Sie uns, wer Sie sind und wobei wir helfen können – ob als Kunde, Partner oder Investor.",
     "label1": "Name",
     "label2": "E-Mail",
     "label3": "Nachricht",
+    "reason": "Grund Ihrer Anfrage",
+    "reasonGeneral": "Allgemein",
+    "reasonPartnership": "Partnerschaft",
+    "reasonInvestor": "Investor",
+    "reasonSupport": "Support",
+    "investorDetails": "Fondsname / Ticketgröße / Profil-Link (optional)",
     "button": "Senden"
+  },
+  "trust": {
+    "title": "Für Vertrauen und Wirkung gebaut",
+    "subtitle": "EpsiHome liegt an der Schnittstelle von Fintech und Immobilien – mit Fokus auf Sicherheit, Inklusion und langfristigem Mehrwert.",
+    "partners": {
+      "label": "Partner & Ökosystem",
+      "body": "Wir arbeiten mit Banken, Versicherern, Agenturen und Betreibern zusammen, die den afrikanischen Wohnungsmarkt aus der Praxis kennen."
+    },
+    "security": {
+      "label": "Sicherheit & Transparenz",
+      "body": "Von Zahlungen bis zu Dokumenten ist EpsiHome darauf ausgelegt, Betrug zu reduzieren und für alle Beteiligten mehr Klarheit zu schaffen."
+    },
+    "impact": {
+      "label": "Impact & Inklusion",
+      "body": "Unser Ziel ist es, Millionen von Afrikanern und der Diaspora sicheren Wohnraum und Zugang zu Immobilieninvestments zu eröffnen."
+    }
   }
 }

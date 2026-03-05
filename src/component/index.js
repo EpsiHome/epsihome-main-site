@@ -1,8 +1,14 @@
 
-export {default as Header} from './Header'
-export {default as Service} from './Service'
-export {default as ServiceCard} from './common/ServiceCard'
-export {default as AboutUs} from './AboutUs'
-export {default as Contact} from './ContactUs'
-export {default as Benefits} from './Benefits'
-export {default as FAQ} from './FAQ'
+export { default as Header } from "./Header"
+export { default as Hero } from "./Hero"
+export { default as HowItWorks } from "./HowItWorks"
+export { default as Service } from "./Service"
+export { default as ServiceCard } from "./common/ServiceCard"
+export { default as Benefits } from "./Benefits"
+export { default as ProductEcosystem } from "./ProductEcosystem"
+export { default as TrustImpact } from "./TrustImpact"
+export { default as AboutUs } from "./AboutUs"
+export { default as VisionMission } from "./VisionMission"
+export { default as Investors } from "./Investors"
+export { default as FAQ } from "./FAQ"
+export { default as Contact } from "./ContactUs"

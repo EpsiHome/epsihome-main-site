@@ -1,11 +1,10 @@
-import React from "react";
-import ServiceCard from "./common/ServiceCard";
-import data from "../constant/data";
-import { useTranslation } from "react-i18next";
-import images from "../constant/images";
+import React from "react"
+import ServiceCard from "./common/ServiceCard"
+import { useTranslation } from "react-i18next"
+import images from "../constant/images"
 
 function Service() {
-  const {t} = useTranslation()
+  const { t } = useTranslation()
 
   const services = [
     {
@@ -48,13 +47,23 @@ function Service() {
       image: images.analysis,
       description: t("services.items.7.description"),
     },
-  ];
+  ]
 
   return (
-    <section id="services" className="bg-white py-12 mt-4">
-      <h1 className="text-3xl text-center my-4 text-gray-800 uppercase font-bold">{t("services.title")}</h1>
-      <div className="container mx-auto px-4">
-        {/* <h2 className="text-4xl font-bold mb-8">Our Services</h2> */}
+    <section
+      id="services"
+      className="py-16 bg-white border-t border-slate-200 text-epsi-text"
+    >
+      <div className="max-w-6xl mx-auto px-4">
+        <h2 className="text-2xl sm:text-3xl font-bold text-epsi-primary text-center mb-3">
+          {t("services.title", "Our services")}
+        </h2>
+        <p className="text-sm text-epsi-muted text-center max-w-2xl mx-auto mb-8">
+          {t(
+            "services.subtitle",
+            "Everything you need to discover, finance, and manage property in one place.",
+          )}
+        </p>
         <div className="flex flex-wrap -mx-4">
           {services.map((service, index) => (
             <ServiceCard
@@ -67,7 +76,7 @@ function Service() {
         </div>
       </div>
     </section>
-  );
+  )
 }
 
-export default Service;
+export default Service
