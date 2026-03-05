@@ -2,11 +2,13 @@
 
 {
   "header": {
+    "howItWorks": "Comment ça marche",
     "services": "Services",
     "about": "À propos de nous",
     "faq": "FAQ",
     "benefits": "Avantages",
-    "contact": "Contactez-nous"
+    "contact": "Contactez-nous",
+    "investors": "Investisseurs"
   },
   "hero": {
     "badge": "Proptech pour l’immobilier africain",
@@ -25,6 +27,7 @@
   },
   "services": {
     "title": "Nos services",
+    "subtitle": "Tout ce dont vous avez besoin pour découvrir, financer et gérer vos biens immobiliers sur une seule plateforme.",
     "items": [
       {
         "title": "Place de marché",
@@ -79,8 +82,57 @@
     "missionLabel": "Mission",
     "mission": "La mission d’EpsiHome est d’unifier la découverte, le financement et la gestion des biens immobiliers au sein d’une plateforme de confiance — accessible via le web, le mobile et des APIs — en commençant par le Cameroun puis en s’étendant à l’ensemble du continent africain."
   },
+  "howItWorks": {
+    "title": "Comment fonctionne EpsiHome",
+    "subtitle": "EpsiHome relie chaque étape du parcours immobilier — de la recherche et la décision au financement et à la gestion sur le long terme — pour chaque acteur de l’écosystème.",
+    "renters": {
+      "title": "Pour les locataires et acheteurs",
+      "step1": "Parcourez des annonces vérifiées avec des informations transparentes.",
+      "step2": "Estimez l’accessibilité et les rendements potentiels grâce à des outils intégrés.",
+      "step3": "Faites une demande de financement et finalisez votre transaction entièrement en ligne."
+    },
+    "owners": {
+      "title": "Pour les propriétaires et gestionnaires",
+      "step1": "Publiez vos biens sur la place de marché et touchez plus de locataires qualifiés.",
+      "step2": "Suivez baux, paiements et dépenses depuis un tableau de bord unique.",
+      "step3": "Connectez-vous à des services comme les inspections, la maintenance et l’assurance."
+    },
+    "lenders": {
+      "title": "Pour les prêteurs et assureurs",
+      "step1": "Configurez vos produits et critères de souscription.",
+      "step2": "Recevez des demandes qualifiées avec plus de données sur les biens et les clients.",
+      "step3": "Intégrez-vous via des APIs pour automatiser les décisions et le suivi."
+    }
+  },
+  "ecosystem": {
+    "title": "Une plateforme, trois points de contact",
+    "subtitle": "EpsiHome relie l’expérience web publique, l’application mobile dans les mains des utilisateurs et l’infrastructure qui fonctionne en arrière‑plan.",
+    "web": {
+      "title": "Application web",
+      "body": "Tableaux de bord modernes pour la découverte, l’onboarding et la gestion de portefeuille de tous vos biens."
+    },
+    "mobile": {
+      "title": "Application mobile",
+      "body": "Expérience mobile pour locataires, acheteurs et propriétaires avec messagerie, notifications et suivi des tâches."
+    },
+    "backend": {
+      "title": "Backend et APIs",
+      "body": "Services sécurisés et APIs qui alimentent annonces, paiements, flux de données et intégrations avec banques et assureurs."
+    }
+  },
+  "investors": {
+    "title": "Pour les investisseurs",
+    "subtitle": "EpsiHome offre aux investisseurs une exposition à l’immobilier africain via une plateforme qui relie les personnes, les biens et le capital.",
+    "problemTitle": "Problème",
+    "problemBody": "L’immobilier africain est vaste mais fragmenté, avec des prix opaques, des processus hors ligne et un accès limité à un financement sûr.",
+    "solutionTitle": "Solution",
+    "solutionBody": "EpsiHome construit une couche unifiée couvrant la découverte, les données, le financement et la gestion, pour créer une infrastructure unique et de confiance.",
+    "whyNowTitle": "Pourquoi maintenant",
+    "whyNowBody": "La pénétration du smartphone, les paiements digitaux et une population jeune et en urbanisation font de cette période le bon moment pour numériser l’accès au logement et à l’investissement immobilier.",
+    "ctaCall": "Parler à l’équipe"
+  },
   "benefits": {
-    "title": "",
+    "title": "Pourquoi EpsiHome",
     "items": [
       {
         "title": "Accès amélioré aux annonces immobilières",
@@ -122,6 +174,7 @@
   },
   "faq": {
     "title": "Questions fréquemment posées",
+    "subtitle": "Les réponses aux questions les plus courantes de nos premiers utilisateurs, partenaires et de la communauté.",
     "items": [
       {
         "question": "Comment puis-je créer un compte ?",
@@ -155,9 +208,32 @@
   },
   "contactUs": {
     "title": "Contactez-nous",
+    "subtitle": "Dites-nous qui vous êtes et comment nous pouvons vous aider — que vous soyez client, partenaire ou investisseur.",
     "label1": "Nom",
     "label2": "Email",
     "label3": "Message",
+    "reason": "Raison de votre message",
+    "reasonGeneral": "Général",
+    "reasonPartnership": "Partenariat",
+    "reasonInvestor": "Investisseur",
+    "reasonSupport": "Support",
+    "investorDetails": "Nom du fonds / taille de ticket / lien vers le profil (optionnel)",
     "button": "Envoyer"
+  },
+  "trust": {
+    "title": "Pensé pour la confiance et l’impact",
+    "subtitle": "EpsiHome se situe à l’intersection de la fintech et de l’immobilier, avec un focus sur la sécurité, l’inclusion et la création de valeur à long terme.",
+    "partners": {
+      "label": "Partenaires et écosystème",
+      "body": "Nous construisons avec des banques, assureurs, agences et opérateurs qui connaissent le terrain et la réalité du logement en Afrique."
+    },
+    "security": {
+      "label": "Sécurité et transparence",
+      "body": "Des paiements aux documents, EpsiHome est conçu pour réduire la fraude et apporter plus de clarté à toutes les parties prenantes."
+    },
+    "impact": {
+      "label": "Impact et inclusion",
+      "body": "Notre objectif est de faciliter l’accès à un logement sûr et à l’investissement immobilier pour des millions d’Africains et de membres de la diaspora."
+    }
   }
 }

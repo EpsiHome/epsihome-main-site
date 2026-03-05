@@ -1,10 +1,12 @@
 {
   "header": {
+    "howItWorks": "So funktioniert es",
     "services": "Dienstleistungen",
     "about": "Über uns",
     "faq": "FAQ",
     "benefits": "Vorteile",
-    "contact": "Kontakt"
+    "contact": "Kontakt",
+    "investors": "Investoren"
   },
   "hero": {
     "badge": "Proptech für den afrikanischen Immobilienmarkt",
@@ -23,6 +25,7 @@
   },
   "services": {
     "title": "Unsere Dienstleistungen",
+    "subtitle": "Alles, was Sie benötigen, um Immobilien zu finden, zu finanzieren und zu verwalten – auf einer Plattform.",
     "items": [
       {
         "title": "Marktplatz",
@@ -77,8 +80,57 @@
     "missionLabel": "Mission",
     "mission": "Die Mission von EpsiHome ist es, Immobiliensuche, Finanzierung und Verwaltung in einer vertrauenswürdigen Plattform zu vereinen – verfügbar über Web, Mobile und APIs, beginnend in Kamerun und mit einer schrittweisen Ausweitung über ganz Afrika."
   },
+  "howItWorks": {
+    "title": "So funktioniert EpsiHome",
+    "subtitle": "EpsiHome verbindet alle Schritte der Immobilienreise – von der Suche und Entscheidung bis zur Finanzierung und langfristigen Verwaltung – für alle Beteiligten im Ökosystem.",
+    "renters": {
+      "title": "Für Mieter und Käufer",
+      "step1": "Durchsuchen Sie geprüfte Inserate mit transparenten Informationen.",
+      "step2": "Schätzen Sie Leistbarkeit und potenzielle Renditen mit integrierten Tools ein.",
+      "step3": "Beantragen Sie eine Finanzierung und schließen Sie den Kauf vollständig digital ab."
+    },
+    "owners": {
+      "title": "Für Vermieter und Verwalter",
+      "step1": "Listen Sie Objekte auf dem Marktplatz und erreichen Sie mehr qualifizierte Mieter.",
+      "step2": "Verfolgen Sie Verträge, Zahlungen und Ausgaben in einem gemeinsamen Dashboard.",
+      "step3": "Verbinden Sie sich mit Services wie Inspektionen, Wartung und Versicherungen."
+    },
+    "lenders": {
+      "title": "Für Kreditgeber und Versicherer",
+      "step1": "Definieren Sie Produkte und Underwriting‑Kriterien.",
+      "step2": "Erhalten Sie qualifizierte Anfragen mit reichhaltigeren Objekt‑ und Kundendaten.",
+      "step3": "Integrieren Sie sich über APIs, um Entscheidungen und Servicing zu automatisieren."
+    }
+  },
+  "ecosystem": {
+    "title": "Eine Plattform, drei Berührungspunkte",
+    "subtitle": "EpsiHome verbindet das öffentliche Web‑Erlebnis, die mobile App in den Händen der Nutzer und die Infrastruktur im Hintergrund.",
+    "web": {
+      "title": "Web‑App",
+      "body": "Moderne Dashboards für Suche, Onboarding und Portfoliomanagement über alle Immobilien hinweg."
+    },
+    "mobile": {
+      "title": "Mobile App",
+      "body": "Mobile Erfahrung für Mieter, Käufer und Eigentümer mit Messaging, Benachrichtigungen und Aufgabenverfolgung."
+    },
+    "backend": {
+      "title": "Backend & APIs",
+      "body": "Sichere Services und APIs, die Inserate, Zahlungen, Datenpipelines und Integrationen mit Banken und Versicherern betreiben."
+    }
+  },
+  "investors": {
+    "title": "Für Investoren",
+    "subtitle": "EpsiHome bietet Investoren Zugang zum afrikanischen Immobilienmarkt über eine Plattform, die Menschen, Objekte und Kapital verbindet.",
+    "problemTitle": "Problem",
+    "problemBody": "Der afrikanische Immobilienmarkt ist groß, aber fragmentiert – mit intransparenten Preisen, Offline‑Prozessen und eingeschränktem Zugang zu sicherer Finanzierung.",
+    "solutionTitle": "Lösung",
+    "solutionBody": "EpsiHome baut eine einheitliche Schicht über Suche, Daten, Finanzierung und Verwaltung auf und schafft so eine vertrauenswürdige Infrastruktur.",
+    "whyNowTitle": "Warum jetzt",
+    "whyNowBody": "Smartphone‑Verbreitung, digitale Zahlungen und eine junge, urbanisierende Bevölkerung machen jetzt den richtigen Zeitpunkt, um den Zugang zu Wohnen und Immobilieninvestments zu digitalisieren.",
+    "ctaCall": "Mit dem Team sprechen"
+  },
   "benefits": {
-    "title": "",
+    "title": "Warum EpsiHome",
     "items": [
       {
         "title": "Verbesserter Zugang zu Immobilienangeboten",
@@ -120,6 +172,7 @@
   },
   "faq": {
     "title": "Häufig gestellte Fragen",
+    "subtitle": "Antworten auf häufige Fragen von frühen Nutzern, Partnern und der Community.",
     "items": [
       {
         "question": "Wie erstelle ich ein Konto?",
@@ -152,10 +205,33 @@
     ]
   },
   "contactUs": {
-    "title": "Kontaktiere uns",
+    "title": "Kontaktieren Sie uns",
+    "subtitle": "Erzählen Sie uns, wer Sie sind und wobei wir helfen können – ob als Kunde, Partner oder Investor.",
     "label1": "Name",
     "label2": "E-Mail",
     "label3": "Nachricht",
+    "reason": "Grund Ihrer Anfrage",
+    "reasonGeneral": "Allgemein",
+    "reasonPartnership": "Partnerschaft",
+    "reasonInvestor": "Investor",
+    "reasonSupport": "Support",
+    "investorDetails": "Fondsname / Ticketgröße / Profil-Link (optional)",
     "button": "Senden"
+  },
+  "trust": {
+    "title": "Für Vertrauen und Wirkung gebaut",
+    "subtitle": "EpsiHome liegt an der Schnittstelle von Fintech und Immobilien – mit Fokus auf Sicherheit, Inklusion und langfristigem Mehrwert.",
+    "partners": {
+      "label": "Partner & Ökosystem",
+      "body": "Wir arbeiten mit Banken, Versicherern, Agenturen und Betreibern zusammen, die den afrikanischen Wohnungsmarkt aus der Praxis kennen."
+    },
+    "security": {
+      "label": "Sicherheit & Transparenz",
+      "body": "Von Zahlungen bis zu Dokumenten ist EpsiHome darauf ausgelegt, Betrug zu reduzieren und für alle Beteiligten mehr Klarheit zu schaffen."
+    },
+    "impact": {
+      "label": "Impact & Inklusion",
+      "body": "Unser Ziel ist es, Millionen von Afrikanern und der Diaspora sicheren Wohnraum und Zugang zu Immobilieninvestments zu eröffnen."
+    }
   }
 }

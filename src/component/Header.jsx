@@ -1,5 +1,6 @@
 import React, { useState } from "react"
 import { useTranslation } from "react-i18next"
+import { trackEvent } from "../lib/analytics"
 
 function Header() {
   const { t, i18n } = useTranslation()
@@ -7,6 +8,7 @@ function Header() {
 
   const changeLanguage = (language) => {
     i18n.changeLanguage(language)
+    trackEvent("language_change", { language })
   }
 
   return (
@@ -51,6 +53,14 @@ function Header() {
         >
           <li>
             <a
+              href="#how-it-works"
+              className="block text-epsi-muted hover:text-epsi-primary transition-colors"
+            >
+              {t("header.howItWorks", "How it works")}
+            </a>
+          </li>
+          <li>
+            <a
               href="#services"
               className="block text-epsi-muted hover:text-epsi-primary transition-colors"
             >
@@ -79,6 +89,17 @@ function Header() {
               className="block text-epsi-muted hover:text-epsi-primary transition-colors"
             >
               {t("header.benefits")}
+            </a>
+          </li>
+          <li>
+            <a
+              href="#investors"
+              className="inline-flex items-center rounded-full border border-epsi-secondary/60 bg-epsi-secondary/10 px-3 py-1 text-epsi-secondary font-semibold hover:bg-epsi-secondary hover:text-epsi-bg-dark transition-colors"
+              onClick={() =>
+                trackEvent("nav_investors_click", { location: "header" })
+              }
+            >
+              {t("header.investors", "Investors")}
             </a>
           </li>
           <li>
