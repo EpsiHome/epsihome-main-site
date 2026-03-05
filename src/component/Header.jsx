@@ -92,7 +92,7 @@ function Header() {
           <li>
             <a
               href="#investors"
-              className="block text-epsi-muted hover:text-epsi-primary transition-colors"
+              className="inline-flex items-center rounded-full border border-epsi-secondary/60 bg-epsi-secondary/10 px-3 py-1 text-epsi-secondary font-semibold hover:bg-epsi-secondary hover:text-epsi-bg-dark transition-colors"
             >
               {t("header.investors", "Investors")}
             </a>

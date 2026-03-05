@@ -10,6 +10,7 @@ import {
   Investors,
   ProductEcosystem,
   Service,
+   TrustImpact,
   VisionMission,
 } from "./component"
 
@@ -24,6 +25,7 @@ function App() {
         <Benefits />
         <ProductEcosystem />
         <AboutUs />
+        <TrustImpact />
         <VisionMission />
         <Investors />
         <FAQ />

@@ -5,6 +5,8 @@ const ContactUs = () => {
   const [name, setName] = React.useState("")
   const [email, setEmail] = React.useState("")
   const [message, setMessage] = React.useState("")
+  const [reason, setReason] = React.useState("General")
+  const [investorDetails, setInvestorDetails] = React.useState("")
   const { t } = useTranslation()
 
   return (
@@ -29,6 +31,34 @@ const ContactUs = () => {
         >
           <div>
             <label
+              htmlFor="reason"
+              className="block text-sm font-medium text-slate-100 mb-1"
+            >
+              {t("contactUs.reason", "Reason for contacting us")}
+            </label>
+            <select
+              id="reason"
+              name="reason"
+              className="w-full rounded-md border border-slate-600 bg-transparent px-3 py-2 text-sm text-white focus:outline-none focus:ring-1 focus:ring-epsi-secondary focus:border-epsi-secondary"
+              value={reason}
+              onChange={(e) => setReason(e.target.value)}
+            >
+              <option value="General">
+                {t("contactUs.reasonGeneral", "General")}
+              </option>
+              <option value="Partnership">
+                {t("contactUs.reasonPartnership", "Partnership")}
+              </option>
+              <option value="Investor">
+                {t("contactUs.reasonInvestor", "Investor")}
+              </option>
+              <option value="Support">
+                {t("contactUs.reasonSupport", "Support")}
+              </option>
+            </select>
+          </div>
+          <div>
+            <label
               htmlFor="name"
               className="block text-sm font-medium text-slate-100 mb-1"
             >
@@ -45,6 +75,27 @@ const ContactUs = () => {
               onChange={(e) => setName(e.target.value)}
             />
           </div>
+          {reason === "Investor" && (
+            <div>
+              <label
+                htmlFor="investorDetails"
+                className="block text-sm font-medium text-slate-100 mb-1"
+              >
+                {t(
+                  "contactUs.investorDetails",
+                  "Fund name / ticket size / profile link (optional)",
+                )}
+              </label>
+              <input
+                type="text"
+                id="investorDetails"
+                name="investorDetails"
+                className="w-full rounded-md border border-slate-600 bg-transparent px-3 py-2 text-sm text-white placeholder-slate-400 focus:outline-none focus:ring-1 focus:ring-epsi-secondary focus:border-epsi-secondary"
+                value={investorDetails}
+                onChange={(e) => setInvestorDetails(e.target.value)}
+              />
+            </div>
+          )}
           <div>
             <label
               htmlFor="email"
