@@ -1,11 +1,13 @@
 
 {
   "header": {
+    "howItWorks": "How it works",
     "services": "Services",
     "about": "About Us",
     "faq": "FAQ",
     "benefits": "Benefits",
-    "contact": "Contact Us"
+    "contact": "Contact Us",
+    "investors": "Investors"
   },
   "hero": {
     "badge": "Proptech for African real estate",
@@ -77,6 +79,55 @@
     "vision": "EpsiHome’s vision is to make safe, transparent homeownership and real estate investing possible for millions of Africans and the diaspora by digitizing every step of the property journey.",
     "missionLabel": "Mission",
     "mission": "EpsiHome’s mission is to unify property discovery, financing, and management into one trusted platform—delivered through web, mobile, and APIs—starting in Cameroon and expanding across Africa."
+  },
+  "howItWorks": {
+    "title": "How EpsiHome works",
+    "subtitle": "EpsiHome connects every part of the property journey—from discovery and decisions to financing and long‑term management—for each player in the ecosystem.",
+    "renters": {
+      "title": "For renters & buyers",
+      "step1": "Browse verified listings with transparent details.",
+      "step2": "Estimate affordability and potential returns with built‑in tools.",
+      "step3": "Apply for financing and complete your transaction fully online."
+    },
+    "owners": {
+      "title": "For landlords & managers",
+      "step1": "List properties in the marketplace and reach more qualified tenants.",
+      "step2": "Track leases, payments, and expenses from a single dashboard.",
+      "step3": "Connect to services like inspections, maintenance, and insurance."
+    },
+    "lenders": {
+      "title": "For lenders & insurers",
+      "step1": "Configure products and underwriting criteria.",
+      "step2": "Receive qualified applications with richer property and customer data.",
+      "step3": "Integrate via APIs to automate decisions and servicing."
+    }
+  },
+  "ecosystem": {
+    "title": "One platform, three touchpoints",
+    "subtitle": "EpsiHome ties together the public web experience, the mobile app in users’ hands, and the infrastructure behind the scenes.",
+    "web": {
+      "title": "Web app",
+      "body": "Modern dashboards for discovery, onboarding, and portfolio management across all your properties."
+    },
+    "mobile": {
+      "title": "Mobile app",
+      "body": "On-the-go experience for renters, buyers, and owners with messaging, notifications, and task tracking."
+    },
+    "backend": {
+      "title": "Backend & APIs",
+      "body": "Secure services and APIs that power listings, payments, data pipelines, and integrations with banks and insurers."
+    }
+  },
+  "investors": {
+    "title": "For investors",
+    "subtitle": "EpsiHome offers investors exposure to African real estate through a platform that connects people, properties, and capital.",
+    "problemTitle": "Problem",
+    "problemBody": "African real estate is large but fragmented, with opaque pricing, offline processes, and limited access to safe financing.",
+    "solutionTitle": "Solution",
+    "solutionBody": "EpsiHome builds a unified layer across discovery, data, financing, and property management, creating a single, trusted infrastructure.",
+    "whyNowTitle": "Why now",
+    "whyNowBody": "Smartphone penetration, digital payments, and a young, urbanising population make this the right moment to digitise how Africans access and invest in property.",
+    "ctaCall": "Talk to the team"
   },
   "benefits":{
     "title":"",

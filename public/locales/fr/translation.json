@@ -2,11 +2,13 @@
 
 {
   "header": {
+    "howItWorks": "Comment ça marche",
     "services": "Services",
     "about": "À propos de nous",
     "faq": "FAQ",
     "benefits": "Avantages",
-    "contact": "Contactez-nous"
+    "contact": "Contactez-nous",
+    "investors": "Investisseurs"
   },
   "hero": {
     "badge": "Proptech pour l’immobilier africain",
@@ -78,6 +80,55 @@
     "vision": "La vision d’EpsiHome est de rendre possible une accession à la propriété et un investissement immobilier sûrs et transparents pour des millions d’Africains et de membres de la diaspora, en numérisant chaque étape du parcours immobilier.",
     "missionLabel": "Mission",
     "mission": "La mission d’EpsiHome est d’unifier la découverte, le financement et la gestion des biens immobiliers au sein d’une plateforme de confiance — accessible via le web, le mobile et des APIs — en commençant par le Cameroun puis en s’étendant à l’ensemble du continent africain."
+  },
+  "howItWorks": {
+    "title": "Comment fonctionne EpsiHome",
+    "subtitle": "EpsiHome relie chaque étape du parcours immobilier — de la recherche et la décision au financement et à la gestion sur le long terme — pour chaque acteur de l’écosystème.",
+    "renters": {
+      "title": "Pour les locataires et acheteurs",
+      "step1": "Parcourez des annonces vérifiées avec des informations transparentes.",
+      "step2": "Estimez l’accessibilité et les rendements potentiels grâce à des outils intégrés.",
+      "step3": "Faites une demande de financement et finalisez votre transaction entièrement en ligne."
+    },
+    "owners": {
+      "title": "Pour les propriétaires et gestionnaires",
+      "step1": "Publiez vos biens sur la place de marché et touchez plus de locataires qualifiés.",
+      "step2": "Suivez baux, paiements et dépenses depuis un tableau de bord unique.",
+      "step3": "Connectez-vous à des services comme les inspections, la maintenance et l’assurance."
+    },
+    "lenders": {
+      "title": "Pour les prêteurs et assureurs",
+      "step1": "Configurez vos produits et critères de souscription.",
+      "step2": "Recevez des demandes qualifiées avec plus de données sur les biens et les clients.",
+      "step3": "Intégrez-vous via des APIs pour automatiser les décisions et le suivi."
+    }
+  },
+  "ecosystem": {
+    "title": "Une plateforme, trois points de contact",
+    "subtitle": "EpsiHome relie l’expérience web publique, l’application mobile dans les mains des utilisateurs et l’infrastructure qui fonctionne en arrière‑plan.",
+    "web": {
+      "title": "Application web",
+      "body": "Tableaux de bord modernes pour la découverte, l’onboarding et la gestion de portefeuille de tous vos biens."
+    },
+    "mobile": {
+      "title": "Application mobile",
+      "body": "Expérience mobile pour locataires, acheteurs et propriétaires avec messagerie, notifications et suivi des tâches."
+    },
+    "backend": {
+      "title": "Backend et APIs",
+      "body": "Services sécurisés et APIs qui alimentent annonces, paiements, flux de données et intégrations avec banques et assureurs."
+    }
+  },
+  "investors": {
+    "title": "Pour les investisseurs",
+    "subtitle": "EpsiHome offre aux investisseurs une exposition à l’immobilier africain via une plateforme qui relie les personnes, les biens et le capital.",
+    "problemTitle": "Problème",
+    "problemBody": "L’immobilier africain est vaste mais fragmenté, avec des prix opaques, des processus hors ligne et un accès limité à un financement sûr.",
+    "solutionTitle": "Solution",
+    "solutionBody": "EpsiHome construit une couche unifiée couvrant la découverte, les données, le financement et la gestion, pour créer une infrastructure unique et de confiance.",
+    "whyNowTitle": "Pourquoi maintenant",
+    "whyNowBody": "La pénétration du smartphone, les paiements digitaux et une population jeune et en urbanisation font de cette période le bon moment pour numériser l’accès au logement et à l’investissement immobilier.",
+    "ctaCall": "Parler à l’équipe"
   },
   "benefits": {
     "title": "",
