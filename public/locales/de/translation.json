@@ -25,6 +25,7 @@
   },
   "services": {
     "title": "Unsere Dienstleistungen",
+    "subtitle": "Alles, was Sie benötigen, um Immobilien zu finden, zu finanzieren und zu verwalten – auf einer Plattform.",
     "items": [
       {
         "title": "Marktplatz",
@@ -129,7 +130,7 @@
     "ctaCall": "Mit dem Team sprechen"
   },
   "benefits": {
-    "title": "",
+    "title": "Warum EpsiHome",
     "items": [
       {
         "title": "Verbesserter Zugang zu Immobilienangeboten",
@@ -171,6 +172,7 @@
   },
   "faq": {
     "title": "Häufig gestellte Fragen",
+    "subtitle": "Antworten auf häufige Fragen von frühen Nutzern, Partnern und der Community.",
     "items": [
       {
         "question": "Wie erstelle ich ein Konto?",
@@ -203,10 +205,33 @@
     ]
   },
   "contactUs": {
-    "title": "Kontaktiere uns",
+    "title": "Kontaktieren Sie uns",
+    "subtitle": "Erzählen Sie uns, wer Sie sind und wobei wir helfen können – ob als Kunde, Partner oder Investor.",
     "label1": "Name",
     "label2": "E-Mail",
     "label3": "Nachricht",
+    "reason": "Grund Ihrer Anfrage",
+    "reasonGeneral": "Allgemein",
+    "reasonPartnership": "Partnerschaft",
+    "reasonInvestor": "Investor",
+    "reasonSupport": "Support",
+    "investorDetails": "Fondsname / Ticketgröße / Profil-Link (optional)",
     "button": "Senden"
+  },
+  "trust": {
+    "title": "Für Vertrauen und Wirkung gebaut",
+    "subtitle": "EpsiHome liegt an der Schnittstelle von Fintech und Immobilien – mit Fokus auf Sicherheit, Inklusion und langfristigem Mehrwert.",
+    "partners": {
+      "label": "Partner & Ökosystem",
+      "body": "Wir arbeiten mit Banken, Versicherern, Agenturen und Betreibern zusammen, die den afrikanischen Wohnungsmarkt aus der Praxis kennen."
+    },
+    "security": {
+      "label": "Sicherheit & Transparenz",
+      "body": "Von Zahlungen bis zu Dokumenten ist EpsiHome darauf ausgelegt, Betrug zu reduzieren und für alle Beteiligten mehr Klarheit zu schaffen."
+    },
+    "impact": {
+      "label": "Impact & Inklusion",
+      "body": "Unser Ziel ist es, Millionen von Afrikanern und der Diaspora sicheren Wohnraum und Zugang zu Immobilieninvestments zu eröffnen."
+    }
   }
 }
