@@ -1,12 +1,20 @@
 import React, { useEffect, useRef } from "react"
 import { useTranslation } from "react-i18next"
 
-const Investors = () => {
-  const { t } = useTranslation()
+let analyticsPromise
+
+function getAnalytics() {
+  if (!analyticsPromise) {
+    analyticsPromise = import("../lib/analytics")
+  }
+  return analyticsPromise
+}
+
+export function useTrackEvent() {
   const trackEventRef = useRef(() => {})
 
   useEffect(() => {
-    import("../lib/analytics")
+    getAnalytics()
       .then((mod) => {
         if (mod && typeof mod.trackEvent === "function") {
           trackEventRef.current = mod.trackEvent
@@ -14,6 +22,13 @@ const Investors = () => {
       })
       .catch(() => {})
   }, [])
+
+  return trackEventRef
+}
+
+const Investors = () => {
+  const { t } = useTranslation()
+  const trackEventRef = useTrackEvent()
 
   const blocks = [
     {
