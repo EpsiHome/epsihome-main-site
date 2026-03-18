@@ -5,25 +5,33 @@ const AboutUs = () => {
   const { t } = useTranslation();
 
   return (
-    <section id="about" className="about-us h-screen overflow-scroll bg-white justify-center">
-      <h1 className="text-3xl text-center my-4 text-gray-800 uppercase font-bold">
-        {t("aboutUs.title")}
-      </h1>
-      <div className="grid grid-cols-2 px-4 gap-4">
-        <div>
-          <p className="text-gray-700 mb-4">{t("aboutUs.description1")}</p>
-          <p className="text-gray-700 mb-4">{t("aboutUs.description2")}</p>
-        </div>
-        <div>
-          <ul className="list-disc mb-4">
-            <li className="text-gray-700">{t("aboutUs.listItem1")}</li>
-            <li className="text-gray-700">{t("aboutUs.listItem2")}</li>
-            <li className="text-gray-700">{t("aboutUs.listItem3")}</li>
-            <li className="text-gray-700">{t("aboutUs.listItem4")}</li>
-            <li className="text-gray-700">{t("aboutUs.listItem5")}</li>
-            <li className="text-gray-700">{t("aboutUs.listItem6")}</li>
-            <li className="text-gray-700">{t("aboutUs.listItem7")}</li>
-          </ul>
+    <section id="about" className="py-12 bg-white border-t border-slate-200 scroll-mt-24">
+      <div className="max-w-6xl mx-auto px-4">
+        <h2 className="text-2xl sm:text-3xl text-center mb-8 text-gray-800 uppercase font-bold tracking-wide">
+          {t("aboutUs.title")}
+        </h2>
+
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-start pb-4">
+          <div className="space-y-4">
+            <p className="text-gray-700 text-base leading-relaxed">
+              {t("aboutUs.description1")}
+            </p>
+            <p className="text-gray-700 text-base leading-relaxed">
+              {t("aboutUs.description2")}
+            </p>
+          </div>
+
+          <div>
+            <ul className="list-disc pl-6 space-y-3 text-gray-700 leading-relaxed">
+              <li>{t("aboutUs.listItem1")}</li>
+              <li>{t("aboutUs.listItem2")}</li>
+              <li>{t("aboutUs.listItem3")}</li>
+              <li>{t("aboutUs.listItem4")}</li>
+              <li>{t("aboutUs.listItem5")}</li>
+              <li>{t("aboutUs.listItem6")}</li>
+              <li>{t("aboutUs.listItem7")}</li>
+            </ul>
+          </div>
         </div>
       </div>
     </section>
