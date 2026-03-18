@@ -1,9 +1,19 @@
-import React from "react"
+import React, { useEffect, useRef } from "react"
 import { useTranslation } from "react-i18next"
-import { trackEvent } from "../lib/analytics"
 
 const Investors = () => {
   const { t } = useTranslation()
+  const trackEventRef = useRef(() => {})
+
+  useEffect(() => {
+    import("../lib/analytics")
+      .then((mod) => {
+        if (mod && typeof mod.trackEvent === "function") {
+          trackEventRef.current = mod.trackEvent
+        }
+      })
+      .catch(() => {})
+  }, [])
 
   const blocks = [
     {
@@ -65,7 +75,7 @@ const Investors = () => {
             href="#contact"
             className="inline-flex items-center justify-center rounded-md bg-epsi-primary px-5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-epsi-secondary transition-colors"
             onClick={() =>
-              trackEvent("investor_cta_click", {
+              trackEventRef.current("investor_cta_click", {
                 source: "investors_section",
                 type: "talk_to_team",
               })

@@ -1,6 +1,5 @@
-import React from "react"
+import React, { useEffect, useRef } from "react"
 import { useTranslation } from "react-i18next"
-import { trackEvent } from "../lib/analytics"
 
 const ContactUs = () => {
   const [name, setName] = React.useState("")
@@ -9,6 +8,17 @@ const ContactUs = () => {
   const [reason, setReason] = React.useState("General")
   const [investorDetails, setInvestorDetails] = React.useState("")
   const { t } = useTranslation()
+  const trackEventRef = useRef(() => {})
+
+  useEffect(() => {
+    import("../lib/analytics")
+      .then((mod) => {
+        if (mod && typeof mod.trackEvent === "function") {
+          trackEventRef.current = mod.trackEvent
+        }
+      })
+      .catch(() => {})
+  }, [])
 
   return (
     <section
@@ -30,7 +40,7 @@ const ContactUs = () => {
           method="POST"
           className="space-y-4"
           onSubmit={() =>
-            trackEvent("contact_form_submit", {
+            trackEventRef.current("contact_form_submit", {
               reason,
             })
           }
@@ -50,7 +60,7 @@ const ContactUs = () => {
               onChange={(e) => {
                 const next = e.target.value
                 setReason(next)
-                trackEvent("contact_reason_change", { reason: next })
+                trackEventRef.current("contact_reason_change", { reason: next })
               }}
             >
               <option value="General">

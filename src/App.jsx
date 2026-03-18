@@ -1,4 +1,4 @@
-import React, { useEffect } from "react"
+import React, { useEffect, useRef } from "react"
 import {
   AboutUs,
   Benefits,
@@ -13,10 +13,24 @@ import {
   TrustImpact,
   VisionMission,
 } from "./component"
-import { trackEvent } from "./lib/analytics"
 
 function App() {
+  // Analytics is non-critical. If a browser extension blocks analytics files,
+  // we still want the site to render.
+  const trackEventRef = useRef(() => {})
+
   useEffect(() => {
+    // Load analytics lazily so a blocked analytics request doesn't break the app.
+    import("./lib/analytics")
+      .then((mod) => {
+        if (mod && typeof mod.trackEvent === "function") {
+          trackEventRef.current = mod.trackEvent
+        }
+      })
+      .catch(() => {
+        // Ignore analytics load errors (adblockers/extension blocks, etc.)
+      })
+
     const sectionIds = [
       "hero",
       "how-it-works",
@@ -40,7 +54,7 @@ function App() {
             const id = entry.target.id
             if (!seen.has(id)) {
               seen.add(id)
-              trackEvent("section_view", { section: id })
+              trackEventRef.current("section_view", { section: id })
             }
           }
         })
