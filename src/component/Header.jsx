@@ -13,7 +13,12 @@ function Header() {
           trackEventRef.current = mod.trackEvent
         }
       })
-      .catch(() => {})
+      .catch((error) => {
+        // In production, analytics load failures (e.g. due to ad blockers) are intentionally ignored.
+        if (process.env.NODE_ENV === "development") {
+          console.error("Failed to load analytics module", error)
+        }
+      })
   }, [])
 
   const changeLanguage = (language) => {
