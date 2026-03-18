@@ -1,11 +1,44 @@
-import React, { useState } from "react"
+import React, { useEffect, useRef, useState } from "react"
 import { useTranslation } from "react-i18next"
 import images from "../constant/images"
-import { trackEvent } from "../lib/analytics"
+
+let analyticsInitPromise = null
+
+const loadAnalytics = () => {
+  if (!analyticsInitPromise) {
+    analyticsInitPromise = import("../lib/analytics").catch((error) => {
+      // Reset the promise so that a future call can retry initialization
+      analyticsInitPromise = null
+      throw error
+    })
+  }
+  return analyticsInitPromise
+}
 
 const Hero = () => {
   const { t } = useTranslation()
   const [audience, setAudience] = useState("customers")
+  const trackEventRef = useRef(() => {})
+
+  useEffect(() => {
+    let isMounted = true
+
+    loadAnalytics()
+      .then((mod) => {
+        if (
+          isMounted &&
+          mod &&
+          typeof mod.trackEvent === "function"
+        ) {
+          trackEventRef.current = mod.trackEvent
+        }
+      })
+      .catch(() => {})
+
+    return () => {
+      isMounted = false
+    }
+  }, [])
 
   const isInvestors = audience === "investors"
 
@@ -48,7 +81,7 @@ const Hero = () => {
               type="button"
               onClick={() => {
                 setAudience("customers")
-                trackEvent("hero_audience_toggle", { audience: "customers" })
+                trackEventRef.current("hero_audience_toggle", { audience: "customers" })
               }}
               className={`flex-1 inline-flex items-center justify-center rounded-md px-5 py-2.5 text-sm font-semibold border transition-colors ${
                 !isInvestors
@@ -62,7 +95,7 @@ const Hero = () => {
               type="button"
               onClick={() => {
                 setAudience("investors")
-                trackEvent("hero_audience_toggle", { audience: "investors" })
+                trackEventRef.current("hero_audience_toggle", { audience: "investors" })
               }}
               className={`flex-1 inline-flex items-center justify-center rounded-md px-5 py-2.5 text-sm font-semibold border transition-colors ${
                 isInvestors

@@ -1,6 +1,46 @@
-import React from "react"
+import React, { useEffect, useRef } from "react"
 import { useTranslation } from "react-i18next"
-import { trackEvent } from "../lib/analytics"
+
+const cachedFallbackTrackEvent = () => {}
+let trackEventPromise = null
+let cachedTrackEvent = cachedFallbackTrackEvent
+
+const getTrackEvent = () => {
+  if (trackEventPromise) {
+    return trackEventPromise
+  }
+
+  trackEventPromise = import("../lib/analytics")
+    .then((mod) => {
+      if (mod && typeof mod.trackEvent === "function") {
+        cachedTrackEvent = mod.trackEvent
+      }
+      return cachedTrackEvent
+    })
+    .catch(() => cachedTrackEvent)
+
+  return trackEventPromise
+}
+
+const useTrackEvent = () => {
+  const trackEventRef = useRef(cachedTrackEvent)
+
+  useEffect(() => {
+    let isCancelled = false
+
+    getTrackEvent().then((trackEvent) => {
+      if (!isCancelled) {
+        trackEventRef.current = trackEvent
+      }
+    })
+
+    return () => {
+      isCancelled = true
+    }
+  }, [])
+
+  return trackEventRef
+}
 
 const ContactUs = () => {
   const [name, setName] = React.useState("")
@@ -9,6 +49,7 @@ const ContactUs = () => {
   const [reason, setReason] = React.useState("General")
   const [investorDetails, setInvestorDetails] = React.useState("")
   const { t } = useTranslation()
+  const trackEventRef = useTrackEvent()
 
   return (
     <section
@@ -30,7 +71,7 @@ const ContactUs = () => {
           method="POST"
           className="space-y-4"
           onSubmit={() =>
-            trackEvent("contact_form_submit", {
+            trackEventRef.current("contact_form_submit", {
               reason,
             })
           }
@@ -50,7 +91,7 @@ const ContactUs = () => {
               onChange={(e) => {
                 const next = e.target.value
                 setReason(next)
-                trackEvent("contact_reason_change", { reason: next })
+                trackEventRef.current("contact_reason_change", { reason: next })
               }}
             >
               <option value="General">

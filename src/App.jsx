@@ -1,4 +1,4 @@
-import React, { useEffect } from "react"
+import React, { useEffect, useRef } from "react"
 import {
   AboutUs,
   Benefits,
@@ -13,10 +13,35 @@ import {
   TrustImpact,
   VisionMission,
 } from "./component"
-import { trackEvent } from "./lib/analytics"
 
 function App() {
+  // Analytics is non-critical. If a browser extension blocks analytics files,
+  // we still want the site to render.
+  const trackEventRef = useRef(null)
+
   useEffect(() => {
+    const seen = new Set()
+    const pendingSectionViews = new Set()
+
+    // Load analytics lazily so a blocked analytics request doesn't break the app.
+    import("./lib/analytics")
+      .then((mod) => {
+        if (mod && typeof mod.trackEvent === "function") {
+          trackEventRef.current = mod.trackEvent
+          // Flush any pending section_view events that occurred before analytics loaded.
+          pendingSectionViews.forEach((id) => {
+            if (!seen.has(id)) {
+              trackEventRef.current("section_view", { section: id })
+              seen.add(id)
+            }
+          })
+          pendingSectionViews.clear()
+        }
+      })
+      .catch(() => {
+        // Ignore analytics load errors (adblockers/extension blocks, etc.)
+      })
+
     const sectionIds = [
       "hero",
       "how-it-works",
@@ -31,16 +56,19 @@ function App() {
       "contact",
     ]
 
-    const seen = new Set()
-
     const observer = new IntersectionObserver(
       (entries) => {
         entries.forEach((entry) => {
           if (entry.isIntersecting && entry.target.id) {
             const id = entry.target.id
             if (!seen.has(id)) {
-              seen.add(id)
-              trackEvent("section_view", { section: id })
+              if (typeof trackEventRef.current === "function") {
+                trackEventRef.current("section_view", { section: id })
+                seen.add(id)
+              } else {
+                // Analytics not ready yet; buffer this section for later tracking.
+                pendingSectionViews.add(id)
+              }
             }
           }
         })
