@@ -2,19 +2,42 @@ import React, { useEffect, useRef, useState } from "react"
 import { useTranslation } from "react-i18next"
 import images from "../constant/images"
 
+let analyticsInitPromise = null
+
+const loadAnalytics = () => {
+  if (!analyticsInitPromise) {
+    analyticsInitPromise = import("../lib/analytics").catch((error) => {
+      // Reset the promise so that a future call can retry initialization
+      analyticsInitPromise = null
+      throw error
+    })
+  }
+  return analyticsInitPromise
+}
+
 const Hero = () => {
   const { t } = useTranslation()
   const [audience, setAudience] = useState("customers")
   const trackEventRef = useRef(() => {})
 
   useEffect(() => {
-    import("../lib/analytics")
+    let isMounted = true
+
+    loadAnalytics()
       .then((mod) => {
-        if (mod && typeof mod.trackEvent === "function") {
+        if (
+          isMounted &&
+          mod &&
+          typeof mod.trackEvent === "function"
+        ) {
           trackEventRef.current = mod.trackEvent
         }
       })
       .catch(() => {})
+
+    return () => {
+      isMounted = false
+    }
   }, [])
 
   const isInvestors = audience === "investors"
