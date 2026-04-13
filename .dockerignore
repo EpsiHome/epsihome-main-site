@@ -1,0 +1,32 @@
+# ================================================================
+# epsihome-main-site — .dockerignore
+# ================================================================
+# Files excluded from the Docker build context.
+# No environment variables are needed — this is a fully static site.
+# ================================================================
+
+# Git metadata
+.git
+.gitignore
+
+# Previously built output — rebuilt inside Docker
+dist/
+
+# Dependencies — reinstalled by yarn install inside Docker
+node_modules/
+
+# Dev tooling and editor files
+.vscode/
+.idea/
+*.swp
+
+# Log files
+*.log
+logs/
+
+# Documentation
+*.md
+docs/
+
+# Temporary files
+tmp/
